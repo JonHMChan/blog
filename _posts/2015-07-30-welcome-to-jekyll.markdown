@@ -1,25 +1,66 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "My Round the World Itinerary"
 date:   2015-07-30 22:29:22
-categories: jekyll update
+categories: travel
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+These are my plans for my round the world trip starting in August 2015 and ending in November 2015
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+### New York, New York, United States (Start)
+ - Plane from New York to Berlin, connecting in Dussuldorf
 
-Jekyll also offers powerful support for code snippets:
+### Berlin, Germany (August 9)
+ - Plane from Berlin to Barcelona
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+### Barcelona, Spain (August 12)
+ - Train from Barcelona to Sitges
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+### Sitges, Spain (August 17)
+ - Train from Sitges to Barcelona, flight from Barcelona to Paris
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+### Paris, France (August 19)
+ - Train from Paris to Marseille
+
+### Marseille/Aix en Provence, France (August 23)
+ - Train from Marseille to Canne
+
+### Cannes, France (August 25)
+ - Train from Cannes to Milan
+
+### Milan, Italy (August 28)
+ - Train from Milan to Venice
+
+### Venice, Italy (August 30)
+ - Train from Venice to Bologna
+
+### Bologna, Italy (August 1)
+ - Train from Bologna to Florence
+
+### Florence, Italy (September 2)
+ - Train from Florence to Rome
+
+### Rome, Italy (September 4)
+ - Plane from Rome to Hong Kong
+
+### Hong Kong, China (September 7)
+ - Plane from Hong Kong to Taipei
+
+### Taipei, Taiwan (September 13)
+ - Plane from Taipei to Los Angeles, connecting in Hong Kong
+
+### Los Angeles, California, United States (October 10)
+ - Car from Los Angeles to San Diego
+
+### San Diego, California, United States (October 12)
+ - Car from San Diego to Los Angeles
+
+### Los Angeles, California, United States (October 16)
+ - Car from Los Angeles to Las Vegas
+
+### Las Vegas, Nevada, United States (October 31)
+ - Car from Las Vegas to Los Angeles
+
+### Los Angeles, California, United States (November 2)
+ - Plane from Los Angeles to New York
+
+### New York, New York, United States (November 17)
