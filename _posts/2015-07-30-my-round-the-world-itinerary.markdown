@@ -96,11 +96,3 @@ These are my plans for my round the world trip starting in August 2015 and endin
  - Plane from Los Angeles to New York
 
 ### New York, New York, United States (November 17)
-
-Things I may want to do but not sure about:
-
-### Hanoi, Vietnam (September 20)
-- Ha Long Bay (2 days, 1 night or 3 days, 2 nights boat tour) - Approx. 4 hours away from Hanoi
-- Sapa, (One day, two day overnight options) - Would recommend you stay there. Very cultural experience and you will see a lot of minorities in their traditional outfits. It;s about 5-6 Hours away from Hanoi
-- Check out the city, it’s beautiful and the history is very preserved. 
-- If you have time, check out Hoi An (World historic site - pretty far away)
