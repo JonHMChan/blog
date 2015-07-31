@@ -13,14 +13,20 @@ These are my plans for my round the world trip starting in August 2015 and endin
 ### Berlin, Germany (August 9)
  - Berlin Wall (history)
  - [Reischstag](http://www.bundestag.de/htdocs_e/visits/kuppel/kupp/245686) (history)
+ - Brandenberg Gate
+ - Holocaust Memorial
+ - Checkpoint Charlie
+ - East Side Gallery
  - Plane from Berlin to Barcelona
 
 ### Barcelona, Spain (August 12)
  - Parc Güell (sights)
- - La Sagrada Familia (sights)
+ - [La Sagrada Familia](https://www.tiqets.com/en/barcelona-c66342/skip-the-line-sagrada-familia-optional-audio-guide-p918256) (sights)
  - [Gaudí houses](http://www.globotreks.com/destinations/10-gaudi-buildings-barcelona/) (sights - 7, 2, 10)
  - La champañería (cava & cheap eats - super packed sometimes tho)
  - Opium (drinks, party)
+ - [Paseo de Gracia] (sights)
+ - EAT A LOT OF JAMON
  - Just walk around aimlessly
  - Train from Barcelona to Sitges
 
