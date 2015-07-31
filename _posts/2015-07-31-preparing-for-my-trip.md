@@ -5,10 +5,10 @@ categories: travel
 published: true
 ---
 
-## Preparing For My Trip
+Better backpack 40L
 
-Better backpack
 ### What I'm Packing
+
 - Personal Care
 	- **Toothbrush 2x**
     - Floss Picks
