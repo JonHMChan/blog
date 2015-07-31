@@ -55,6 +55,16 @@ These are my plans for my round the world trip starting in August 2015 and endin
  - Max Noodles (wonton noodles)
  - Quinary (cocktails)
  - Angel's Share (whiskey bar)
+ - Boba Bear (hookah)
+ - Volume Beat (bar)
+ - The Zoo (lol bar)
+ - Propaganda (late night club)
+ - Three Monkeys (restaurant/bar)
+ - Ichiran** (ramen)
+ - Levels (club)
+ - Bungalo (club)
+ - Crystal Jade (soup dumplings, chain)
+ - Twins Peak (hike)
  - Plane from Hong Kong to Taipei
 
 ### Taipei, Taiwan (September 13)
