@@ -10,21 +10,26 @@ These are my plans for my round the world trip starting in August 2015 and endin
  - Plane from New York to Berlin, connecting in Dussuldorf
 
 ### Berlin, Germany (August 9)
+ - Berlin Wall (history)
  - Plane from Berlin to Barcelona
 
 ### Barcelona, Spain (August 12)
+ - Park Güell (sights)
  - Train from Barcelona to Sitges
 
 ### Sitges, Spain (August 17)
  - Train from Sitges to Barcelona, flight from Barcelona to Paris
 
 ### Paris, France (August 19)
+ - Louvre (sights)
+ - Catacombs (sights)
  - Train from Paris to Marseille
 
 ### Marseille/Aix en Provence, France (August 23)
  - Train from Marseille to Canne
 
 ### Cannes, France (August 25)
+ - Beach ()
  - Train from Cannes to Milan
 
 ### Milan, Italy (August 28)
@@ -43,6 +48,13 @@ These are my plans for my round the world trip starting in August 2015 and endin
  - Plane from Rome to Hong Kong
 
 ### Hong Kong, China (September 7)
+ - Yardbird (food, cocktails)
+ - Azure (pre-drinks)
+ - 001 (drinks)
+ - Tim Ho Wan (dim sum)
+ - Max Noodles (wonton noodles)
+ - Quinary (cocktails)
+ - Angel's Share (whiskey bar)
  - Plane from Hong Kong to Taipei
 
 ### Taipei, Taiwan (September 13)
