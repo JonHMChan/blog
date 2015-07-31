@@ -60,7 +60,7 @@ These are my plans for my round the world trip starting in August 2015 and endin
  - The Zoo (lol bar)
  - Propaganda (late night club)
  - Three Monkeys (restaurant/bar)
- - Ichiran** (ramen)
+ - [Ichiran](http://hk.ichiran.com/html/tenpo/causewaybay.html) (ramen)
  - Levels (club)
  - Bungalo (club)
  - Crystal Jade (soup dumplings, chain)
