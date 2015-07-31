@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## Preparing For My Trip
