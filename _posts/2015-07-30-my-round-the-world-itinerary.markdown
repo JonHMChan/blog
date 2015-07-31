@@ -1,7 +1,6 @@
 ---
 layout: post
 title: My Round the World Itinerary
-date: {}
 categories: travel
 published: true
 ---
