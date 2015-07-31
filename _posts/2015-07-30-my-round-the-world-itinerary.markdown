@@ -35,6 +35,10 @@ These are my plans for my round the world trip starting in August 2015 and endin
 
 ### Paris, France (August 19)
  - Louvre (sights)
+ - Eiffel Tower (sights)
+ - Notre Dame (sights, climb the stairs!)
+ - Jardin du Luxembourg (sights, walk)
+ - Day trip to Versailles by train
  - Catacombs (sights)
  - [Pont des Arts](https://en.wikipedia.org/wiki/Pont_des_Arts)
  - Train from Paris to Marseille
