@@ -52,7 +52,7 @@ These are my plans for my round the world trip starting in August 2015 and endin
  - Azure (pre-drinks)
  - 001 (drinks)
  - Tim Ho Wan (dim sum)
- - Max Noodles (wonton noodles)
+ - Mak's Noodles (wonton noodles)
  - Quinary (cocktails)
  - Angel's Share (whiskey bar)
  - Boba Bear (hookah)
