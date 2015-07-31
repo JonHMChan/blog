@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "My Round the World Itinerary"
-date:   2015-07-30 22:29:22
+title: My Round the World Itinerary
+date: {}
 categories: travel
+published: true
 ---
+
 These are my plans for my round the world trip starting in August 2015 and ending in November 2015
 
 ### New York, New York, United States (Start)
@@ -11,14 +13,15 @@ These are my plans for my round the world trip starting in August 2015 and endin
 
 ### Berlin, Germany (August 9)
  - Berlin Wall (history)
+ - [Reischstag](http://www.bundestag.de/htdocs_e/visits/kuppel/kupp/245686) (history)
  - Plane from Berlin to Barcelona
 
 ### Barcelona, Spain (August 12)
  - Parc Güell (sights)
- - La Sagrada Familia (sights) - JC
- - The two Gaudí houses (fuck if I remember the names >.>) - JC
- - La champañería (cava & cheap eats - super packed sometimes tho) - JC
- - Opium (drinks, party) - JC
+ - La Sagrada Familia (sights)
+ - [Gaudí houses](http://www.globotreks.com/destinations/10-gaudi-buildings-barcelona/) (sights - 7, 2, 10)
+ - La champañería (cava & cheap eats - super packed sometimes tho)
+ - Opium (drinks, party)
  - Just walk around aimlessly
  - Train from Barcelona to Sitges
 
@@ -28,7 +31,7 @@ These are my plans for my round the world trip starting in August 2015 and endin
 ### Paris, France (August 19)
  - Louvre (sights)
  - Catacombs (sights)
- - Pont des Arts (if it hasn’t been removed by then, JC)
+ - [Pont des Arts](https://en.wikipedia.org/wiki/Pont_des_Arts)
  - Train from Paris to Marseille
 
 ### Marseille/Aix en Provence, France (August 23)
@@ -39,7 +42,7 @@ These are my plans for my round the world trip starting in August 2015 and endin
  - Train from Cannes to Milan
 
 ### Milan, Italy (August 28)
- - Train from Milan to Venice
+ - Train from Milan to Venice (?)
 
 ### Venice, Italy (August 30)
  - Train from Venice to Bologna
@@ -72,17 +75,11 @@ These are my plans for my round the world trip starting in August 2015 and endin
  - Bungalo (club)
  - Crystal Jade (soup dumplings, chain)
  - Twins Peak (hike)
- - Plane from Hong Kong to Taipei
  - Serenade Dim Sum (映月楼) - Dim Sum is good but not out of this world - go for the view of Victoria Harbor while you're eating
+ - Plane from Hong Kong to Taipei
 
 ### Taipei, Taiwan (September 13)
  - Plane from Taipei to Los Angeles, connecting in Hong Kong
-
-### Hanoi, Vietnam (September 20)
-- Ha Long Bay (2 days, 1 night or 3 days, 2 nights boat tour) - Approx. 4 hours away from Hanoi
-- Sapa, (One day, two day overnight options) - Would recommend you stay there. Very cultural experience and you will see a lot of minorities in their traditional outfits. It;s about 5-6 Hours away from Hanoi
-- Check out the city, it’s beautiful and the history is very preserved. 
-- If you have time, check out Hoi An (World historic site - pretty far away)
 
 ### Los Angeles, California, United States (October 10)
  - Car from Los Angeles to San Diego
@@ -101,3 +98,10 @@ These are my plans for my round the world trip starting in August 2015 and endin
 
 ### New York, New York, United States (November 17)
 
+Things I may want to do but not sure about:
+
+### Hanoi, Vietnam (September 20)
+- Ha Long Bay (2 days, 1 night or 3 days, 2 nights boat tour) - Approx. 4 hours away from Hanoi
+- Sapa, (One day, two day overnight options) - Would recommend you stay there. Very cultural experience and you will see a lot of minorities in their traditional outfits. It;s about 5-6 Hours away from Hanoi
+- Check out the city, it’s beautiful and the history is very preserved. 
+- If you have time, check out Hoi An (World historic site - pretty far away)
