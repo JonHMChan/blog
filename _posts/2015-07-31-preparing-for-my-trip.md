@@ -1,4 +1,7 @@
 ---
+layout: post
+title: Preparing For My Trip
+categories: travel
 published: true
 ---
 
