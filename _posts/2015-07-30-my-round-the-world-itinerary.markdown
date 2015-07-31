@@ -7,14 +7,19 @@ categories: travel
 These are my plans for my round the world trip starting in August 2015 and ending in November 2015
 
 ### New York, New York, United States (Start)
- - Plane from New York to Berlin, connecting in Dussuldorf
+ - Plane from New York to Berlin, connecting in Dusseldorf
 
 ### Berlin, Germany (August 9)
  - Berlin Wall (history)
  - Plane from Berlin to Barcelona
 
 ### Barcelona, Spain (August 12)
- - Park Güell (sights)
+ - Parc Güell (sights)
+ - La Sagrada Familia (sights) - JC
+ - The two Gaudí houses (fuck if I remember the names >.>) - JC
+ - La champañería (cava & cheap eats - super packed sometimes tho) - JC
+ - Opium (drinks, party) - JC
+ - Just walk around aimlessly
  - Train from Barcelona to Sitges
 
 ### Sitges, Spain (August 17)
@@ -23,10 +28,11 @@ These are my plans for my round the world trip starting in August 2015 and endin
 ### Paris, France (August 19)
  - Louvre (sights)
  - Catacombs (sights)
+ - Pont des Arts (if it hasn’t been removed by then, JC)
  - Train from Paris to Marseille
 
 ### Marseille/Aix en Provence, France (August 23)
- - Train from Marseille to Canne
+ - Train from Marseille to Cannes
 
 ### Cannes, France (August 25)
  - Beach ()
@@ -51,8 +57,9 @@ These are my plans for my round the world trip starting in August 2015 and endin
  - Yardbird (food, cocktails)
  - Azure (pre-drinks)
  - 001 (drinks)
+ - oZone - highest rooftop bar in the world. Ritzcarleton - Jack
  - Tim Ho Wan (dim sum)
- - Mak's Noodles (wonton noodles)
+ - Mak's Noodles (wonton noodles) - not anything special - Jack 
  - Quinary (cocktails)
  - Angel's Share (whiskey bar)
  - Boba Bear (hookah)
@@ -66,9 +73,16 @@ These are my plans for my round the world trip starting in August 2015 and endin
  - Crystal Jade (soup dumplings, chain)
  - Twins Peak (hike)
  - Plane from Hong Kong to Taipei
+ - Serenade Dim Sum (映月楼) - Dim Sum is good but not out of this world - go for the view of Victoria Harbor while you're eating
 
 ### Taipei, Taiwan (September 13)
  - Plane from Taipei to Los Angeles, connecting in Hong Kong
+
+### Hanoi, Vietnam (September 20)
+- Ha Long Bay (2 days, 1 night or 3 days, 2 nights boat tour) - Approx. 4 hours away from Hanoi
+- Sapa, (One day, two day overnight options) - Would recommend you stay there. Very cultural experience and you will see a lot of minorities in their traditional outfits. It;s about 5-6 Hours away from Hanoi
+- Check out the city, it’s beautiful and the history is very preserved. 
+- If you have time, check out Hoi An (World historic site - pretty far away)
 
 ### Los Angeles, California, United States (October 10)
  - Car from Los Angeles to San Diego
@@ -86,3 +100,4 @@ These are my plans for my round the world trip starting in August 2015 and endin
  - Plane from Los Angeles to New York
 
 ### New York, New York, United States (November 17)
+
