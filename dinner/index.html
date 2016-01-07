@@ -1,20 +1,230 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  <head>
+  	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  	<style>
+  		html  {
+  			background: #000;
+  			height: 100%;
+  		}
+  		body {
+  			height: 100%;
+  			background: none;
+  			color: #fff;
+  			font-family: 'Lora',Georgia,serif;
+  			font-size: 16px;
+  			-webkit-font-smoothing: antialiased;
+  		}
+  		h1, h2, h3, h4, h5, h6 {
+  			font-weight: 300;
+  			margin: 5px 0;
+  			line-height: 30px;
+  		}
+  		h1 {
+  			font-weight: 500;
+  			font-size: 35px;
+  			letter-spacing: 15px;
+  		}
+  		h2 {
+  			font-size: 25px;
+  			font-style: italic;
+  			font-weight: 100;
+  		}
+  		h3 {
+  			text-align: center;
+  			font-size: 23px;
+  			letter-spacing: 5px;
+  			margin-bottom: 20px;
+  		}
+  		video#bgvid { 
+  			z-index: 1;
+  			opacity: 0.5;
+		    position: fixed;
+		    top: 50%;
+		    left: 50%;
+		    min-width: 100%;
+		    min-height: 100%;
+		    width: auto;
+		    height: auto;
+		    z-index: -100;
+		    -ms-transform: translateX(-50%) translateY(-50%);
+		    -moz-transform: translateX(-50%) translateY(-50%);
+		    -webkit-transform: translateX(-50%) translateY(-50%);
+		    transform: translateX(-50%) translateY(-50%);
+		    background: url(polina.jpg) no-repeat;
+		    background-size: cover; 
+		}
+		.wrapper {
+			background: none;
+			margin: 0 auto;
+			max-width: 900px;
+		}
+		.header-container {
+			height: 80%;
+			width: 100%;
+		}
+		header {
+			text-align: center;
+		    position: relative;
+		    top: 50%;
+		    transform: translateY(-50%);
+		}
+		header .btn {
+			padding: 10px 50px;
+			letter-spacing: 5px;
+			transition: all 0.25s ease;
+		}
+		header .wrapper {
+			max-width: 600px;
+		}
+		header p {
+			margin-top: 40px;
+		}
+		header p.price {
+			margin: 30px 0;
+		}
+		header p.price span {
+			font-size: 50px;
+			font-style: italic;
+			font-weight: 100;
+		}
+		section {
+			background: #fff;
+			color: #333;
+			padding: 30px 0;
+			border-bottom: 1px dashed #ccc;
+		}
+		section .row {
+			margin-bottom: 15px;
+		}
+		section.menus .past {
+			transition: all 0.5s ease;
+			color: rgba(0,0,0,0.25);
+		}
+		section.menus .past:hover {
+			color: #000;
+		}
+		section.menus .next {
+			color: #d9534f;
+		}
+  	</style>
+  </head>
 
   <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
+	<div class="header-container">
+    <header>
       <div class="wrapper">
-        {{ content }}
+      	<div class="row">
+      		<div class="col-md-12">
+	      			<h1>DINNER</h1>
+	        		<h2>by Jon Chan</h2>
+	        		<p>Every week on Tuesday and on the last Sunday of every month, I cook a dinner party as a way of deepening new relationships, introducing my friends to each other, and honing my skills as an amateur chef.</p>
+	        		<p class="price"><span>$30</span> food + drink
+	        		<br/><a class="btn btn-danger btn-lg" href="/dinner/rsvp">RSVP</a></p>
+
+      		</div>
+      	</div>
       </div>
-    </div>
+      </header>
+	</div>
+      <section class="faq">
+      	<div class="wrapper">
+      		<div class="row">
+	      		<div class="col-md-12">
+	      			<h3>Questions</h3>
+	      		</div>
+	      	</div>
+      		<div class="row">
+      			<div class="col-md-6">
+      				<p><strong>Why are you doing this?</strong></p>
+      				<p>I really love how food people brings people together, and cooking is a great passion of mine. Hosting dinner parties is a great way to deepen relationships and meet new people.</p>
+      			</div>
+      			<div class="col-md-6">
+      				<p><strong>How does this work?</strong></p>
+      				<p>First, <a href="/dinner/rsvp">RSVP</a> with the dates you're available for this season, and pay $30 for the food and drink. Once you get a date confirmed and the payment is final, you just show up!</p>
+      			</div>
+      		</div>
+      		<div class="row">
+      			<div class="col-md-6">
+      				<p><strong>Why does it cost $30 up front?</strong></p>
+      				<p>It's to cover the cost of food and drink so you don't worry about bringing anything. I ask for money up front so people don't cancel last minute or at least cover their empty seat.</p>
+      			</div>
+      			<div class="col-md-6">
+      				<p><strong>If I can't make it, can I get a refund?</strong></p>
+      				<p>I'll give you a refund if there's really no availability for the season, or if you let me know you can't make it before I send you a confirmed date. It's only fair that way.</p>
+      			</div>
+      		</div>
+      		<div class="row">
+      			<div class="col-md-6">
+      				<p><strong>What food do you usually make?</strong></p>
+      				<p>All kinds and I love to experiment. I'm a huge fan of taking a scientific approach to cooking. You can see <a href="#menus">my menus</a> below for what I've made and am planning to make.</p>
+      			</div>
+      			<div class="col-md-6">
+      				<p><strong>How did you learn to cook?</strong></p>
+      				<p>I'm a self-taught cook, but I really love <a href="https://www.youtube.com/user/chefsteps" target="_blank">ChefSteps</a> and <a href="https://en.wikipedia.org/wiki/Heston_Blumenthal" target="_blank">Heston Blumenthal</a> as inspirations. I also have the help of many wonderful friends in the food industry.</p>
+      			</div>
+      		</div>
+      	</div>
+      </section>
 
-    {% include footer.html %}
+      <section class="menus">
+      	<div class="wrapper">
+      		<div class="row">
+	      		<div class="col-md-12">
+	      			<a name="menus"></a>
+	      			<h3>Menus</h3>
+	      		</div>
+	      	</div>
+	      	<div class="row">
+	      		<div class="col-md-6 next">
+      				<p><strong>Tue, Jan 12, 2015 (next)</strong></p>
+      				<p><em>Southern Comfort</em><p>
+      				<ul>
+      					<li>TBD</li>
+      				</ul>
+      			</div>
+      			<div class="col-md-6 past">
+      				<p><strong>Tue, Dec 15, 2015</strong></p>
+      				<p><em>Taiwanese</em><p>
+      				<ul>
+      					<li>Three cup chicken</li>
+      					<li>Braised pork rice</li>
+      					<li>"Sacha" barbeque spinach</li>
+      					<li>White rice with ginger scallion oil</li>
+      				</ul>
+      			</div>
+      		</div>
+      		<div class="row">
+      			<div class="col-md-6 past">
+      				<p><strong>Tue, Dec 8, 2015</strong></p>
+      				<p><em>Taco Tuesday</em><p>
+      				<ul>
+      					<li>Short rib adobo chili</li>
+      					<li>Garlic lemon grilled shrimp</li>
+      					<li>Sour cream, guacamole, pico de gallo</li>
+      					<li>Yellow rice and flour tortillas</li>
+      				</ul>
+      			</div>
+      			<div class="col-md-6 past">
+      				<p><strong>Tue, Dec 1, 2015</strong></p>
+      				<p><em>Classic American</em><p>
+      				<ul>
+      					<li>Sous-vide ribeye steaks</li>
+      					<li>Roasted brussel sprouts with panchetta</li>
+      					<li>Fingerling potatoes roasted in duck fat</li>
+      					<li>Caramelized onion and browned mushroom mix</li>
+      				</ul>
+      			</div>
+      		</div>
+      		
+      	</div>
+      </section>
 
+	<video autoplay loop poster="/dinner/bg.jpg" id="bgvid">
+	    <source src="/dinner/bg.webm" type="video/webm">
+	    <source src="/dinner/bg.mp4" type="video/mp4">
+	</video>
   </body>
 
 </html>
