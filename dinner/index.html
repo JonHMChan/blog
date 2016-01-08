@@ -110,6 +110,10 @@
 				font-style: normal;
 				letter-spacing: 1px;
 			}
+			header a.menus {
+				color: #fff;
+				text-decoration: underline;
+			}
 			header .wrapper {
 				max-width: 600px;
 			}
@@ -119,12 +123,10 @@
 				letter-spacing: 8px;
 				text-align: center;
 				text-transform: uppercase;
-			}
-			header p {
-				margin-top: 40px;
+				margin-bottom: 40px;
 			}
 			header p.price {
-				margin: 30px 0;
+				margin: 30px 0 15px 0;
 			}
 			header p.price span {
 				font-size: 50px;
@@ -160,6 +162,14 @@
 				color: #333;
 				font-style: italic;
 			}
+			section.menus div.thumb {
+				height: 150px;
+				background-size: 100%;
+				background-repeat: none;
+				background-position: center center;
+				margin: 10px 0;
+				opacity: 0.75;
+			}
 			@media (max-width: 720px) {
 	  			.header-container {
 	  				height: 90%;
@@ -192,9 +202,10 @@
 	      			<h1>DINNER</h1>
 	        		<h2>by Jon Chan</h2>
 	        		<p class="city">New York</p>
-	        		<p>Every week on Tuesday and on the last Sunday of every month, I cook a dinner party as a way of deepening new relationships, introducing my friends to each other, and honing my skills as an amateur chef.</p>
+	        		<p class="description">Every week on Tuesday and on the last Sunday of every month, I cook a dinner party as a way of deepening new relationships, introducing my friends to each other, and honing my skills as an amateur chef.</p>
 	        		<p class="price"><span>$30</span> food + drink
 	        		<br/><a class="btn btn-danger btn-lg" href="/dinner/rsvp"><span>RSVP</span><br/>January 2016</a></p>
+	        		<p><a class="menus" href="#menus">See the menus</a></p>
 
       		</div>
       	</div>
@@ -255,6 +266,7 @@
 	      		<div class="col-md-6">
       				<p><strong>Sun, Jan 31, 2015</strong></p>
       				<p><em>British Sunday Roast</em><p>
+      				<div class="thumb" style="background-image: url('http://graphics8.nytimes.com/images/2014/05/12/dining/Roast-Chicken-With-Cumin-Honey-And-Orange/Roast-Chicken-With-Cumin-Honey-And-Orange-superJumbo.jpg')"></div>
       				<p>I think British food is terribly underrated. Here's my take on a traditional Sunday roast that everyone can enjoy.</p>
       				<ul>
       					<li>Slow roasted chicken with lemon, thyme, and rosemary</li>
@@ -265,10 +277,11 @@
 	      		<div class="col-md-6">
       				<p><strong>Tue, Jan 26, 2015</strong></p>
       				<p><em>Vegetarian Soul</em><p>
+      				<div class="thumb" style="background-image: url('http://cookingontheweekends.com/wp-content/uploads/2011/07/July9-Marinated-Grilled-Portabella2.jpg')"></div>
       				<p>Just because there isn't meat doesn't mean it can't be amazingly good. These are dishes that I absolutely love and want to master.</p>
       				<ul>
       					<li>Caramelized aubergine and pepper medeley</li>
-      					<li>Portebello mushroom steaks</li>
+      					<li>Portobello mushroom steaks</li>
       				</ul>
       			</div>
       		</div>
@@ -276,6 +289,7 @@
 	      		<div class="col-md-6">
       				<p><strong>Tue, Jan 19, 2015</strong></p>
       				<p><em>Three Fishes</em><p>
+      				<div class="thumb" style="background-image: url('http://www.coastalvirginiamag.com/cova%20bay%20bites%20scallops%20close%20up.jpg')"></div>
       				<p>A sized down <a href="https://en.wikipedia.org/wiki/Feast_of_the_Seven_Fishes">Feast of the Seven Fishes</a>, it's an Italian holiday tradition where there are multiple dishes each with a seafood of some kind.</p>
       				<ul>
       					<li>Lemon butter poached salmon with thyme and dill</li>
@@ -286,6 +300,7 @@
 	      		<div class="col-md-6">
       				<p><strong>Tue, Jan 12, 2015</strong></p>
       				<p><em>Southern Comfort</em><p>
+      				<div class="thumb" style="background-image: url('http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2009/5/27/0/0125629_03_chicken-in-skillet_s4x3.jpg.rend.sni12col.landscape.jpeg')"></div>
       				<p>Because it's the best way to kill the new year resolutions. I've always wanted to perfect fried chicken with glasslike skin and a spicy crust.</p>
       				<ul>
       					<li>Buttermilk fried chicken</li>
@@ -300,6 +315,7 @@
       			<div class="col-md-6">
       				<p><strong>Tue, Dec 15, 2015</strong></p>
       				<p><em>Taiwanese</em><p>
+      				<div class="thumb" style="background-image: url('http://rasamalaysia.com/images/three-cups-chicken/3cup.jpg')"></div>
       				<p>Spending over a month in Taipei, these are some of my favorite things I tried during my travels. It makes me feel at home.</p>
       				<ul>
       					<li>Three cup chicken</li>
@@ -311,6 +327,7 @@
       			<div class="col-md-6">
       				<p><strong>Tue, Dec 8, 2015</strong></p>
       				<p><em>Taco Tuesday</em><p>
+      				<div class="thumb" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b5/01_Tacos_al_Pastor.jpg')"></div>
       				<p>I make this really umami powered chili that I always thought would be great for tacos. It almost has the consistency of barbacoa.</p>
       				<ul>
       					<li>Short rib adobo chili</li>
@@ -324,6 +341,7 @@
       			<div class="col-md-6">
       				<p><strong>Tue, Dec 1, 2015</strong></p>
       				<p><em>Classic American</em><p>
+      				<div class="thumb" style="background-image: url('http://www.marthastewart.com/sites/files/marthastewart.com/imagecache/wmax-1500/ecl/images/content/tv/mad_hungry/2001_2050/grilled-cowboy-rib-eye-mhlb2036_horiz.jpg')"></div>
       				<p>These are my go-to dishes that I make on a regular basis. They're always crowd pleasers and a great way to start off my series.</p>
       				<ul>
       					<li>Sous-vide ribeye steaks</li>
