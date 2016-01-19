@@ -1,3 +1,382 @@
-<!-- Change the width and height values to suit you best -->
-<div class="typeform-widget" data-url="https://jonchan.typeform.com/to/jJA19T" data-text="Dinners by Jon Chan" style="width:100%;height:500px;"></div>
-<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+<html>
+
+  <head>
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+
+		<title>Dinner Club by Jon Chan</title>
+        <meta property="og:image" content="https://jonchan.io/dinner/card.png"/>
+        <meta property="og:title" content="Dinner by Jon Chan"/>
+        <meta property="og:url" content="https://jonchan.io/dinner/"/>
+        <meta property="og:site_name" content="Dinner by Jon Chan"/>
+        <meta property="og:description" content="Every week on Tuesday and on the last Sunday of every month, I cook a dinner party as a way of deepening new relationships, introducing my friends to each other, and honing my skills as an amateur chef.">
+        <meta property="og:type" content="website"/>
+
+        <!-- Twitter settings -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@jonhmchan">
+        <meta name="twitter:creator" content="@jonhmchan">
+        <meta name="twitter:title" content="Dinner by Jon Chan">
+        <meta name="twitter:description" content="Every week on Tuesday and on the last Sunday of every month, I cook a dinner party as a way of deepening new relationships, introducing my friends to each other, and honing my skills as an amateur chef.">
+        <meta name="twitter:image:src" content="https://jonchan.io/dinner/card.png">
+	  	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	  	<style>
+	  		html  {
+	  			background: #000;
+	  			height: 100%;
+	  		}
+	  		body {
+	  			height: 100%;
+	  			background: none;
+	  			color: #fff;
+	  			font-family: 'Lora',Georgia,serif;
+	  			font-size: 16px;
+	  			-webkit-font-smoothing: antialiased;
+	  		}
+	  		h1, h2, h3, h4, h5, h6 {
+	  			font-weight: 300;
+	  			margin: 5px 0;
+	  			line-height: 30px;
+	  		}
+	  		h1 {
+	  			font-weight: 500;
+	  			font-size: 35px;
+	  			letter-spacing: 15px;
+	  		}
+	  		h2 {
+	  			font-size: 25px;
+	  			font-style: italic;
+	  			font-weight: 100;
+	  		}
+	  		h3 {
+	  			text-align: center;
+	  			font-size: 23px;
+	  			letter-spacing: 5px;
+	  			margin-bottom: 20px;
+	  		}
+	  		h4 {
+	  			margin-bottom: 10px;
+	  			text-transform: uppercase;
+	  			letter-spacing: 5px;
+	  			font-weight: 300;
+	  			font-size: 25px;
+	  			color: #999;
+	  		}
+	  		hr {
+	  			margin: 40px 0;
+	  		}
+	  		video#bgvid { 
+	  			z-index: 1;
+	  			opacity: 0.5;
+			    position: fixed;
+			    top: 50%;
+			    left: 50%;
+			    min-width: 100%;
+			    min-height: 100%;
+			    width: auto;
+			    height: auto;
+			    z-index: -100;
+			    -ms-transform: translateX(-50%) translateY(-50%);
+			    -moz-transform: translateX(-50%) translateY(-50%);
+			    -webkit-transform: translateX(-50%) translateY(-50%);
+			    transform: translateX(-50%) translateY(-50%);
+			    background: url(polina.jpg) no-repeat;
+			    background-size: cover; 
+			}
+			.wrapper {
+				background: none;
+				margin: 0 auto;
+				max-width: 900px;
+			}
+			.header-container {
+				height: 80%;
+				width: 100%;
+			}
+			header {
+				text-align: center;
+			    position: relative;
+			    top: 50%;
+			    transform: translateY(-50%);
+			}
+			header p.price .btn {
+				padding: 5px 50px 10px 50px;
+				font-size: 14px;
+				transition: all 0.25s ease;
+			}
+			header p.price .btn span {
+				font-size: 20px;
+				font-weight: 600;
+				font-style: normal;
+				letter-spacing: 1px;
+			}
+			header a.menus {
+				color: #fff;
+				text-decoration: underline;
+			}
+			header .wrapper {
+				max-width: 600px;
+			}
+			header p.city {
+				margin: 0;
+				font-size: 14px;
+				letter-spacing: 8px;
+				text-align: center;
+				text-transform: uppercase;
+				margin-bottom: 40px;
+			}
+			header p.price {
+				margin: 30px 0 15px 0;
+			}
+			header p.price span {
+				font-size: 50px;
+				font-style: italic;
+				font-weight: 100;
+			}
+			section {
+				background: #fff;
+				color: #333;
+				padding: 30px 0;
+				border-bottom: 1px dashed #ccc;
+			}
+			section .row {
+				margin-bottom: 15px;
+			}
+			section.menus {
+				font-size: 14px;
+			}
+			section.menus .past {
+				transition: all 0.5s ease;
+				color: rgba(0,0,0,0.25);
+			}
+			section.menus .past:hover {
+				color: #000;
+			}
+			section.menus .next {
+				color: #d9534f;
+			}
+			section.menus .description {
+				max-width: 450px;
+				margin: 0 auto;
+				margin-bottom: 25px;
+				color: #333;
+				font-style: italic;
+			}
+			section.menus div.thumb {
+				height: 150px;
+				background-size: 100%;
+				background-repeat: none;
+				background-position: center center;
+				margin: 10px 0;
+				opacity: 0.75;
+				transition: all 0.5s ease;
+			}
+			section.menus div.thumb:hover {
+				opacity: 1.0;
+			}
+			@media (max-width: 720px) {
+	  			.header-container {
+	  				height: 90%;
+	  				background: url('/dinner/mobile_bg.png') center center no-repeat fixed;
+	  				background-size: cover;
+	  			}
+	  			header p {
+	  				margin-top: 25px;
+	  			}
+	  			header p.price {
+	  				margin: 15px 0;
+	  			}
+	  			video#bgvid {
+	  				display: none;
+	  			}
+	  			.row {
+	  				padding: 0 15px;
+	  				margin: 0;
+	  			}
+	  			section.menus h4 {
+	  				text-align: center;
+	  			}
+	  		}
+	  	</style>
+  </head>
+
+  <body>
+	<div class="header-container">
+    <header>
+      <div class="wrapper">
+      	<div class="row">
+      		<div class="col-md-12">
+	      			<h1>DINNER CLUB</h1>
+	        		<h2>by Jon Chan</h2>
+	        		<p class="city">New York</p>
+	        		<p class="description">Every week on Tuesday and on the last Sunday of every month, I cook a dinner party as a way of deepening new relationships, introducing my friends to each other, and honing my skills as an amateur chef.</p>
+	        		<p class="price"><span>$35</span> food + drink
+	        		<br/><a class="btn btn-danger btn-lg" href="/dinner/rsvp"><span>RSVP</span><br/>January 2016</a></p>
+	        		<p><a class="menus" href="#menus">See the menus</a></p>
+
+      		</div>
+      	</div>
+      </div>
+      </header>
+	</div>
+      <section class="faq">
+      	<div class="wrapper">
+      		<div class="row">
+	      		<div class="col-md-12">
+	      			<h3>Questions</h3>
+	      		</div>
+	      	</div>
+      		<div class="row">
+      			<div class="col-md-6">
+      				<p><strong>Why are you doing this?</strong></p>
+      				<p>I really love how food brings people together, and cooking is a great passion of mine. Hosting dinner parties is a great way to deepen relationships and meet new people.</p>
+      			</div>
+      			<div class="col-md-6">
+      				<p><strong>How does this work?</strong></p>
+      				<p>First, <a href="/dinner/rsvp">RSVP</a> with the dates you're available for this season, and pay $35 for the food and drink. Once you get a date confirmed and the payment is final, you just show up!</p>
+      			</div>
+      		</div>
+      		<div class="row">
+      			<div class="col-md-6">
+      				<p><strong>Why does it cost $35 up front?</strong></p>
+      				<p>It's to cover the cost of food and drink so you don't worry about bringing anything. I ask for money up front so people don't cancel last minute or at least cover their empty seat.</p>
+      			</div>
+      			<div class="col-md-6">
+      				<p><strong>If I can't make it, can I get a refund?</strong></p>
+      				<p>I'll give you a refund if there's really no availability for the season, or if you let me know you can't make it before I send you a confirmed date. It's only fair that way.</p>
+      			</div>
+      		</div>
+      		<div class="row">
+      			<div class="col-md-6">
+      				<p><strong>What food do you usually make?</strong></p>
+      				<p>All kinds and I love to experiment. I'm a huge fan of taking a scientific approach to cooking. You can see <a href="#menus">my menus</a> below for what I've made and am planning to make.</p>
+      			</div>
+      			<div class="col-md-6">
+      				<p><strong>How did you learn to cook?</strong></p>
+      				<p>I'm a self-taught cook, but I really love <a href="https://www.youtube.com/user/chefsteps" target="_blank">ChefSteps</a> and <a href="https://en.wikipedia.org/wiki/Heston_Blumenthal" target="_blank">Heston Blumenthal</a> as inspirations. I also have the help of many wonderful friends in the food industry.</p>
+      			</div>
+      		</div>
+      	</div>
+      </section>
+
+      <section class="menus">
+      	<div class="wrapper">
+      		<div class="row">
+	      		<div class="col-md-12">
+	      			<a name="menus"></a>
+	      			<h3>Menus</h3>
+	      			<p class="description">I always try and do something new every week, and I love bold, rich flavors. I tend to design menus about a month in advance, but things will change as ingredients come into season and inspiration strikes me.</p> 
+	      		</div>
+	      	</div>
+	      	<h4>January 2016</h4>
+	      	<div class="row">
+	      		<div class="col-md-6">
+      				<p><strong>Sun, Jan 31, 2015</strong></p>
+      				<p><em>British Sunday Roast</em><p>
+      				<div class="thumb" style="background-image: url('http://graphics8.nytimes.com/images/2014/05/12/dining/Roast-Chicken-With-Cumin-Honey-And-Orange/Roast-Chicken-With-Cumin-Honey-And-Orange-superJumbo.jpg')"></div>
+      				<p>I think British food is terribly underrated. Here's my take on a traditional Sunday roast that everyone can enjoy.</p>
+      				<ul>
+      					<li>Slow roasted chicken with lemon, thyme, and rosemary</li>
+      					<li>Roast potatoes and brussel sprouts</li>
+      					<li>Caramelized carrots with sea salt</li>
+      					<li>Early grey tea with agave honey and lemons</li>
+      				</ul>
+      				<p><a href="/dinner/rsvp/" class="btn btn-danger">RSVP</a></p>
+      			</div>
+	      		<div class="col-md-6">
+      				<p><strong>Tue, Jan 26, 2015</strong></p>
+      				<p><em>Three Fishes</em><p>
+      				<div class="thumb" style="background-image: url('http://www.coastalvirginiamag.com/cova%20bay%20bites%20scallops%20close%20up.jpg')"></div>
+      				<p>A sized down <a href="https://en.wikipedia.org/wiki/Feast_of_the_Seven_Fishes">Feast of the Seven Fishes</a>, it's an Italian holiday tradition where there are multiple dishes each with a seafood of some kind.</p>
+      				<ul>
+      					<li>Lemon butter poached salmon with thyme and dill</li>
+      					<li>Spaghetti with anchovy red sauce</li>
+      					<li>Seared scallop and arugula salad</li>
+      				</ul>
+      				<p><em>Brandon L., Vinny W.</em></p>
+      				<p><a href="/dinner/rsvp/" class="btn btn-danger">RSVP</a></p>
+      			</div>
+      		</div>
+	      	<div class="row">
+	      		<div class="col-md-6">
+      				<p><strong>Tue, Jan 19, 2015</strong></p>
+      				<p><em>Vegetarian Soul</em><p>
+      				<div class="thumb" style="background-image: url('http://cookingontheweekends.com/wp-content/uploads/2011/07/July9-Marinated-Grilled-Portabella2.jpg')"></div>
+      				<p>Just because there isn't meat doesn't mean it can't be amazingly good. These are dishes that I absolutely love and want to master.</p>
+      				<ul>
+      					<li>Roasted portobello mushrooms and aubergine</li>
+      					<li>Slow poached eggs with avocado and sriracha</li>
+      					<li>Tomato, basil, burrata cheese</li>
+      				</ul>
+      				<p><a href="/dinner/rsvp/" class="btn btn-danger">RSVP</a></p>
+      			</div>
+	      		<div class="col-md-6">
+      				<p><strong>Tue, Jan 12, 2015</strong></p>
+      				<p><em>Southern Comfort</em><p>
+      				<div class="thumb" style="background-image: url('http://www.thelittleepicurean.com/wp-content/uploads/2013/05/IMG_8605.jpg')"></div>
+      				<p>Because it's the best way to kill the new year resolutions. I've always wanted to perfect fried chicken with glasslike skin and a spicy crust.</p>
+      				<ul>
+      					<li>Buttermilk fried chicken</li>
+      					<li>Watermelon, avocado, goat cheese salad</li>
+      					<li>Cauliflower mac and cheese</li>
+      				</ul>
+      				<p><em>Ken F., Nicholas Y.</em></p>
+      				<p><a href="/dinner/rsvp/" class="btn btn-danger">RSVP</a></p>
+      			</div>
+      		</div>
+      		<hr/>
+      		<h4>December 2015</h4>
+      		<div class="row">
+      			<div class="col-md-6">
+      				<p><strong>Tue, Dec 15, 2015</strong></p>
+      				<p><em>Taiwanese</em><p>
+      				<div class="thumb" style="background-image: url('http://rasamalaysia.com/images/three-cups-chicken/3cup.jpg')"></div>
+      				<p>Spending over a month in Taipei, these are some of my favorite things I tried during my travels. It makes me feel at home.</p>
+      				<ul>
+      					<li>Three cup chicken</li>
+      					<li>Braised pork rice</li>
+      					<li>"Sacha" barbeque spinach</li>
+      					<li>White rice with ginger scallion oil</li>
+      				</ul>
+      				<p><em>Jeff C., Jon C., Vinny W.</em></p>
+      			</div>
+      			<div class="col-md-6">
+      				<p><strong>Tue, Dec 8, 2015</strong></p>
+      				<p><em>Taco Tuesday</em><p>
+      				<div class="thumb" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b5/01_Tacos_al_Pastor.jpg')"></div>
+      				<p>I make this really umami powered chili that I always thought would be great for tacos. It almost has the consistency of barbacoa.</p>
+      				<ul>
+      					<li>Short rib adobo chili</li>
+      					<li>Garlic lemon grilled shrimp</li>
+      					<li>Sour cream, guacamole, pico de gallo</li>
+      					<li>Yellow rice and flour tortillas</li>
+      				</ul>
+      				<p><em>Jasmine C., Sida W., Thomas R., Tiffany W.</em></p>
+      			</div>
+      		</div>
+      		<div class="row">
+      			<div class="col-md-6">
+      				<p><strong>Tue, Dec 1, 2015</strong></p>
+      				<p><em>Classic American</em><p>
+      				<div class="thumb" style="background-image: url('http://www.marthastewart.com/sites/files/marthastewart.com/imagecache/wmax-1500/ecl/images/content/tv/mad_hungry/2001_2050/grilled-cowboy-rib-eye-mhlb2036_horiz.jpg')"></div>
+      				<p>These are my go-to dishes that I make on a regular basis. They're always crowd pleasers and a great way to start off my series.</p>
+      				<ul>
+      					<li>Sous-vide ribeye steaks</li>
+      					<li>Roasted brussel sprouts with panchetta</li>
+      					<li>Fingerling potatoes roasted in duck fat</li>
+      					<li>Caramelized onion and browned mushroom mix</li>
+      				</ul>
+      				<p><em>Brian T., Joe R., Les V., Nhut T.</em></p>
+      			</div>
+      		</div>
+      		
+      	</div>
+      </section>
+
+	<video autoplay loop poster="/dinner/bg.jpg" id="bgvid">
+	    <source src="/dinner/bg.webm" type="video/webm">
+	    <source src="/dinner/bg.mp4" type="video/mp4">
+	</video>
+  </body>
+
+</html>
+>>>>>>> 70255e23578fdd5faf87169072954c76b995c16b
