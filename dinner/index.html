@@ -149,6 +149,25 @@
 			section .row {
 				margin-bottom: 15px;
 			}
+			section.email {
+				background: #d9534f;
+				color: #fff;
+			}
+			section.email h3 {
+				text-align: left;
+				margin-bottom: 5px;
+				letter-spacing: 0;
+			}
+			section.email input {
+				width: 100%;
+				border: 0;
+			}
+			section.email input[type=submit] {
+				color: #fff;
+				border: 1px solid #fff;
+				background: none;
+				text-align: center;
+			}
 			section.menus {
 				font-size: 14px;
 			}
@@ -229,20 +248,20 @@
       </div>
       </header>
 	</div>
-	<div class="email">
+	<section class="email">
 		<div class="wrapper">
 			<!-- Begin MailChimp Signup Form -->
 			<h3>Subscribe for updates and dates</h3>
 			<div id="mc_embed_signup" class="row">
 			<form action="//jonhmchan.us7.list-manage.com/subscribe/post?u=f982afcaf62929c38e8a016a2&amp;id=137949c589" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 			<div class="mc-field-group col-md-3">
-				<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+				<input type="email" value="" name="EMAIL" class="required email" placeholder="Email" id="mce-EMAIL" required>
 			</div>
 			<div class="mc-field-group col-md-3">
-				<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+				<input type="text" value="" name="FNAME" class="" placeholder="First Name" id="mce-FNAME" required>
 			</div>
 			<div class="mc-field-group col-md-3">
-				<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+				<input type="text" value="" name="LNAME" class="" placeholder="Last Name" id="mce-LNAME" required>
 			</div>
 				<div id="mce-responses" class="col-md-3">
 					<div class="response" id="mce-error-response" style="display:none"></div>
@@ -255,7 +274,7 @@
 			</div>
 			<!--End mc_embed_signup-->
 		</div>
-	</div>
+	</section>
       <section class="faq">
       	<div class="wrapper">
       		<div class="row">
