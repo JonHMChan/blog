@@ -1,17 +1,29 @@
 ---
 layout: default
 ---
-<div class="wrapper">
-	<div class="post">
-
-	  <header>
-	    <h1>{{ page.title }}</h1>
-	    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-	  </header>
-
-	  <article>
-	    {{ content }}
-	  </article>
-
+<div class="post">
+	<nav class="progress-bar">
+		<div></div>
+	</nav>
+	<!--
+	<div class="essay-nav">
+		<h1>{{ page.title }}</h1>
 	</div>
+	-->
+
+  	<header data-background="{{ page.hero }}" data-background-position="{{ page.position }}">
+  		<div>
+  			<p class="heading">Essay</p>
+	    	<h1>{{ page.title }}</h1>
+	   		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    	</div>
+  	</header>
+
+  	<div class="wrapper">
+	  	<article>
+	    	{{ content }}
+	  	</article>
+  	</div>
 </div>
+
+{% include footer.html %}

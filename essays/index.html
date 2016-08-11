@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<section class="essays">
+
+  <div class="wrapper">
+
+  <h2>Esssays</h2>
+
+    {% for post in site.posts %}
+    <a class="preview" href="{{ post.url | prepend: site.baseurl }}">
+      <div>{{ post.title }}</div>
+    </a>
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+  </div>
+
+</section>
+
+<script type="text/javascript">
+  Descartes.add({
+    "html": {
+      "body": {
+        ".essays": {
+          "a.preview": {
+            "text-decoration": "none",
+            "display": "block",
+            "width": "100%",
+            "height": 300,
+            "div": {
+              "position": "relative",
+              "top": "50%",
+              "transform": "translateY(-50%)",
+              "text-align": "center"
+            }
+          }
+        }
+      }
+    }
+  })
+</script>

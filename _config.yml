@@ -10,3 +10,4 @@ github_username:  jonhmchan
 
 # Build settings
 markdown: kramdown
+permalink: /essays/:title

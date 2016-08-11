@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Empowerment Organizations"
+hero: https://hd.unsplash.com/photo-1444210971048-6130cf0c46cf
 ---
 
 One of the trends I’ve noticed when talking to people about management is servant leadership. At many of the organizations I admire and have been a part of, we think of management as a support role in the company. As a manager, it is not your job to tell people what to do or what projects to work on, but rather to remove obstacles and enable your “reports” in the best way possible.
@@ -9,6 +10,18 @@ One of the trends I’ve noticed when talking to people about management is serv
 I have my own personal interpretation of what servant leadership in an organization might look like. I call these places that practice servant leadership Empowerment Organizations. The core idea is right in the name: the effectiveness of your management is gauged by how well you empower the people along the organization chart, from the very top all the way out to the leaves at the individual contributor level.
 
 Let me give you an example: say I’m a software engineer. You can imagine there is some arbitrary measure of how productive I can be as an engineer, where I provide +10 value to the company on a regular basis. Now I could focus my energy on becoming a better engineer by becoming more proficient in the language I use day-to-day, picking up new skills by watching lectures or reading books, and so forth. Essentially, I could try and increase my regular contribution from +10 value to say something like +30 value. Truly mastering my craft as an engineer would mean that I do everything in my power to continually level up by getting to +50, +100, and so on.
+
+
+<svg width="100%" height="100px">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refx="0" refy="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000" />
+    </marker>
+  </defs>
+
+  <line x1="0" y1="100%" x2="80%" y2="20%" stroke="#000" stroke-width="5" marker-end="url(#arrow)" />
+</svg>
+
 
 Now let’s switch gears: imagine that I’m now an engineering manager. Say I get to the +50 level, and your first instinct about why I became a manager is simply that a manager is someone who crosses some sufficiently advanced contribution threshold. In an Empowerment Organization, I think this is the wrong way to think about how managers are chosen. I actually think what happens when someone becomes a manager is that their primary responsibility changes: your job as an engineering manager isn’t now to get from +50 value to +70 value and perfect your ability to produce high quality code. Instead, your responsibility is to, say, increase the contributions of your direct reports by 10%. As a result, the sum effect of your ability to empower, mentor, and unlock the abilities of those who “report” into you would be far greater than you increasing your individual contribution coding. In other words, what makes you a manager isn’t your skill in a discipline, but your ability to empower people around you.
 
@@ -33,16 +46,19 @@ Here’s how I think about all three:
 As an exercise, do the following: think about the people in your organization and put them into each of these buckets by asking some simple questions:
 
 **Experts**
+
  - Who are the great individual contributors in your organization?
  - Who are the people that are great and respected in their discipline?
  - Who are the people you and others in your organization asks questions to?
 
 **Force Multipliers**
+
  - Who makes you and others better at their job?
  - Who are the people who best understand other people?
  - Who is a great mentor or coach?
 
 **Net Negatives**
+
  - Who are the people you and others work around and avoid?
  - Who are the people that if they were removed or replaced, would make everyone more productive?
  - Who micromanages, is unpredictable, or misrepresents?
