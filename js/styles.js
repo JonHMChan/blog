@@ -66,6 +66,7 @@ styles.html.body['.post'] = {
 	"height": "100%",
 	".essay-nav": {
 		"alias": "essayNav",
+		"z-index": 999,
 		"top": 5,
 		"background": "#fff",
 		"position": "fixed",
