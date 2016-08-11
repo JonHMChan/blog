@@ -7,9 +7,22 @@ description: "How can you measure an organization's ability to practice servant 
 
 <script type="text/javascript">
 	Descartes.add({
-		".demo": {
-			"padding": "2em 0",
-			"text-align": "center"
+		"html": {
+			".demo": {
+				"margin": "2em 0",
+				"text-align": "center",
+				"width": "100%",
+				"overflow": "scroll",
+				"table": {
+					"width": "80%",
+					"margin": "0 auto",
+					"td": {
+						"width": "20%",
+						"text-align": "center",
+						"vertical-align": "middle"
+					}
+				}
+			}
 		}
 	})
 </script>
@@ -24,33 +37,31 @@ Let me give you an example: say I’m a software engineer. You can imagine there
 
 <div class="demo">
 	<p>Leveling Up</p>
-	<div class="row">
-		<div class="col1">&nbsp;</div>
-		<div class="col2">
-			<p><strong>Before</strong></p>
-			<i class="fa fa-user fa-2x"></i>
-			<p>+10</p>
-		</div>
-		<div class="col2">
-			<br/>
-			<i class="fa fa-long-arrow-right fa-3x"></i>
-		</div>
-		<div class="col2">
-			<p><strong>After</strong></p>
-			<i class="fa fa-user fa-2x"></i>
-			<p>+30</p>
-		</div>
-		<div class="col2">
-			<br/>
-			<br/>
-			<i class="fa fa-pause fa-rotate-90"></i>
-		</div>
-		<div class="col2">
-			<p><strong>Value Add</strong></p>
-			<i class="fa fa-line-chart fa-2x"></i>
-			<p>+20</p>
-		</div>
-	</div>
+	<table>
+		<tr>
+			<td>
+				<p><strong>Before</strong></p>
+				<i class="fa fa-user fa-2x"></i>
+				<p>+10</p>
+			</td>
+			<td>
+				<i class="fa fa-long-arrow-right fa-3x"></i>
+			</td>
+			<td>
+				<p><strong>After</strong></p>
+				<i class="fa fa-user fa-2x"></i>
+				<p>+30</p>
+			</td>
+			<td>
+				<i class="fa fa-pause fa-rotate-90"></i>
+			</td>
+			<td>
+				<p><strong>Value Add</strong></p>
+				<i class="fa fa-line-chart fa-2x"></i>
+				<p>+20</p>
+			</td>
+		</tr>
+	</table>
 </div>
 
 
@@ -59,67 +70,66 @@ Now let’s switch gears: imagine that I’m now an engineering manager. Say I g
 
 <div class="demo">
 	<p>Leveling Yourself Up (Good)</p>
-	<div class="row">
-		<div class="col1">&nbsp;</div>
-		<div class="col2">
-			<p><strong>Before</strong></p>
-			<i class="fa fa-user fa-2x"></i>
-			<p>+50</p>
-		</div>
-		<div class="col2">
-			<br/>
-			<i class="fa fa-long-arrow-right fa-3x"></i>
-		</div>
-		<div class="col2">
-			<p><strong>After</strong></p>
-			<i class="fa fa-user fa-2x"></i>
-			<p>+60</p>
-		</div>
-		<div class="col2">
-			<br/>
-			<br/>
-			<i class="fa fa-pause fa-rotate-90"></i>
-		</div>
-		<div class="col2">
-			<p><strong>Value Add</strong></p>
-			<i class="fa fa-line-chart fa-2x"></i>
-			<p>+10</p>
-		</div>
-	</div>
+	<table>
+		<tr>
+			<td>
+				<p><strong>Before</strong></p>
+				<i class="fa fa-user fa-2x"></i>
+				<p>+50</p>
+			</td>
+			<td>
+				<i class="fa fa-long-arrow-right fa-3x"></i>
+			</td>
+			<td>
+				<p><strong>After</strong></p>
+				<i class="fa fa-user fa-2x"></i>
+				<p>+60</p>
+			</td>
+			<td>
+				<i class="fa fa-pause fa-rotate-90"></i>
+			</td>
+			<td>
+				<p><strong>Value Add</strong></p>
+				<i class="fa fa-line-chart fa-2x"></i>
+				<p>+10</p>
+			</td>
+		</tr>
+	</table>
 </div>
+
 
 
 <div class="demo">
 	<p>Leveling Up Others (Better)</p>
-	<div class="row">
-		<div class="col1">&nbsp;</div>
-		<div class="col2">
-			<p><strong>Before</strong></p>
-			<i class="fa fa-group fa-2x"></i>
-			<p>+150</p>
-		</div>
-		<div class="col2">
-			<i class="fa fa-user fa-2x"></i><br/>
-			+20%<br/>
-			<i class="fa fa-long-arrow-right fa-3x"></i>
-		</div>
-		<div class="col2">
-			<p><strong>After</strong></p>
-			<i class="fa fa-group fa-2x"></i>
-			<p>+180</p>
-		</div>
-		<div class="col2">
-			<br/>
-			<br/>
-			<i class="fa fa-pause fa-rotate-90"></i>
-		</div>
-		<div class="col2">
-			<p><strong>Value Add</strong></p>
-			<i class="fa fa-line-chart fa-2x"></i>
-			<p>+30</p>
-		</div>
-	</div>
+	<table>
+		<tr>
+			<td>
+				<p><strong>Before</strong></p>
+				<i class="fa fa-group fa-2x"></i>
+				<p>+150</p>
+			</td>
+			<td>
+				<i class="fa fa-user fa-2x"></i><br/>
+				+20%<br/>
+				<i class="fa fa-long-arrow-right fa-3x"></i>
+			</td>
+			<td>
+				<p><strong>After</strong></p>
+				<i class="fa fa-group fa-2x"></i>
+				<p>+180</p>
+			</td>
+			<td>
+				<i class="fa fa-pause fa-rotate-90"></i>
+			</td>
+			<td>
+				<p><strong>Value Add</strong></p>
+				<i class="fa fa-line-chart fa-2x"></i>
+				<p>+30</p>
+			</td>
+		</tr>
+	</table>
 </div>
+
 
 
 Thinking this way has helped me model what I see in organizations that practice servant leadership. As an engineering manager, VP of Engineering, or CTO, your job is no longer to become a better engineer and produce code. In fact, once you get into the management layer of the engineering organization, you hardly code at all. Instead, your main responsibility is to make sure the people that you are responsible for are getting better, don’t have unnecessary obstacles blocking them, and stay happy. I believe that bad managers are the ones that don’t understand or practice empowerment. A bad manager will want to do the work for the people they manage because they probably can do the job better, but they shouldn’t: they’re better off spending their time teaching other engineers how to produce quality code rather than doing it themselves. A bad manager that doesn’t do the work might instead try to tell the people they manage how to do their work: taken to its extreme, it boils down to micromanagement and some of the worst kind of management behavior. These scenarios commonly happen when organizations promote people who are very good at their “craft” - whether it be engineering, marketing, sales, or any other discipline - but are terrible at empowering other people. These organizations don’t understand that being good at your craft does not imply that someone will be good at managing others. Managing is essentially a discipline of its own which is about empowering people: motivating, enabling, and removing obstacles in people’s way.
