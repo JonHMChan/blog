@@ -5,18 +5,22 @@ layout: default
 	<nav class="progress-bar">
 		<div></div>
 	</nav>
-	<!--
+	
 	<div class="essay-nav">
-		<h1>{{ page.title }}</h1>
+		<div class="meta">
+			<h1>{{ page.title }}</h1>
+			<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+		</div>
 	</div>
-	-->
+	
 
   	<header data-background="{{ page.hero }}" data-background-position="{{ page.position }}">
-  		<div>
+  		<div class="wrapper title">
   			<p class="heading">Essay</p>
 	    	<h1>{{ page.title }}</h1>
-	   		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+	    	<p>{{ page.description }}</p>
     	</div>
+    	<div class="scroll">Scroll to read<br/><i class="fa fa-caret-down"></i></div>
   	</header>
 
   	<div class="wrapper">

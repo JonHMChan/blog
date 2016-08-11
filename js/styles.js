@@ -64,6 +64,30 @@ styles.html.body.h1 = header(1)
 styles.html.body.h2 = header(2)
 styles.html.body['.post'] = {
 	"height": "100%",
+	".essay-nav": {
+		"alias": "essayNav",
+		"top": 5,
+		"background": "#fff",
+		"position": "fixed",
+		"width": "100%",
+		"overflow": "hidden",
+		"transition": "height 0.5s",
+		"box-shadow": "0 0 15px rgba(0,0,0,0.25)",
+		"height": function() {
+			return $(window).scrollTop() < $(window).height() ? "0px" : "75px"
+		},
+		".meta": {
+			"padding": "0.75em 1em",
+			"h1": {
+				"font-size": headerSize(6),
+				"margin": 0
+			},
+			"p": {
+				"font-size": 14,
+				"color": "#555"
+			}
+		}
+	},
 	"header": {
 		"height": "100%",
 		"background-image": function(_) {
@@ -77,7 +101,7 @@ styles.html.body['.post'] = {
 			return position
 		},
 		"text-align": "center",
-		"div": {
+		".title": {
 			"color": "#fff",
 			"position": "relative",
 			"top": "50%",
@@ -88,7 +112,16 @@ styles.html.body['.post'] = {
 				"font-size": 14,
 				"letter-spacing": 5,
 			}
-		}
+		},
+		".scroll": {
+			"position": "absolute",
+			"width": "100%",
+			"bottom": 25,
+			"color": "#fff",
+			"text-transform": "uppercase",
+			"font-size": 12,
+			"letter-spacing": 4,
+		},
 	},
 	"article": {
 		"padding": "3em 1em",
@@ -119,11 +152,13 @@ styles.html.body['.post'] = {
 			"height": 5,
 			"width": function() {
 				var height = $(document).height() - $(window).height()
-				console.log($(window).scrollTop())
 				return (100 - (((height - $(window).scrollTop()) / height) * 100)) + "%"
 			}
 		}
 	}
 }
 Descartes.add(styles)
-$(window).scroll(Descartes.alias.progress.width)
+$(window).scroll(function() {
+	Descartes.alias.essayNav.height()
+	Descartes.alias.progress.width()
+})
