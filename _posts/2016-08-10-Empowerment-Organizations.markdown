@@ -2,6 +2,7 @@
 layout: post
 title: "Empowerment Organizations"
 hero: https://jonchan.io/img/essays/empowerment-organizations.jpeg
+opacity: 0.7
 description: "How can you measure an organization's ability to practice servant leadership, and what role does each person in an organization play? This is how I think about empowerment in organizations."
 ---
 

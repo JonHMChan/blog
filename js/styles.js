@@ -101,7 +101,8 @@ styles.html.body['.post'] = {
 	"header": {
 		"height": "100%",
 		"background-image": function(_) {
-			return "linear-gradient(rgba(37, 43, 51, 0.35),rgba(37, 43, 51, 0.35)), url('" + _.getAttribute("data-background") + "')"
+			var opacity = _.getAttribute("data-opacity") ? _.getAttribute("data-opacity") : 0.35
+			return "linear-gradient(rgba(37, 43, 51, " + opacity + "),rgba(37, 43, 51, " + opacity + ")), url('" + _.getAttribute("data-background") + "')"
 		},
 		"background-size": "cover",
 		"background-position": function(_) {
