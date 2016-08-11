@@ -196,7 +196,63 @@ Here’s how I think about all three:
 
 **Use your force multipliers to level up your experts.** Force multipliers go up the organization and are focused primarily on increasing the productivity of the people they’re responsible for: they’re your managers. These are the people who are focused on getting their “reports” more productive overall by 10%, 20%, or more. For example, this is the engineering manager who thinks about coding standards, does one-on-ones with the engineers that report to her, and thinks about how to make working as an engineer easier. It is not her responsibility to be coding features that are ultimately part of the product. Instead, she might only code to make engineers’ lives easier, by say, working on local environment setup to make onboarding easier for new engineers. The important thing here to note is that force multipliers can be managers of managers as well: these are your directors, vice presidents, all the way up to the CEO. Your job as a manager of managers then is to think about how well your reports manage others. Ultimately, this means the job of the CEO is to make sure her own circle is empowered. She is thinking about how the CMO, CFO, and her other direct reports are empowering the entire slice of the organization they are responsible for. As a result, in great Empowerment Organizations, the effect of a force multiplier CEO trickles down and ultimately increases the productivity of the experts at the leaves of the organization exponentially.
 
+<div class="demo">
+	<p>Force Multipliers</p>
+	<svg width="500" height="300">
+		<line x1="250" y1="0" x2="250" y2="300" stroke-width="2" stroke="#555" />
+		<line y1="250" x1="0" y2="250" x2="500" stroke-width="2" stroke="#555" />
+
+		<circle cx="450" cy="10" r="5" fill="#FF6140" />
+		<circle cx="232" cy="105" r="5" fill="#FF6140" />
+		<circle cx="290" cy="101" r="5" fill="#FF6140" />
+		<circle cx="295" cy="108" r="5" fill="#FF6140" />
+		<circle cx="255" cy="113" r="5" fill="#FF6140" />
+		<circle cx="438" cy="45" r="5" fill="#FF6140" />
+		<circle cx="420" cy="125" r="5" fill="#FF6140" />
+		<circle cx="470" cy="111" r="5" fill="#FF6140" />
+		<circle cx="355" cy="108" r="5" fill="#FF6140" />
+		<circle cx="323" cy="93" r="5" fill="#FF6140" />
+		<circle cx="380" cy="30" r="5" fill="#FF6140" />
+		<circle cx="420" cy="85" r="5" fill="#FF6140" />
+		<circle cx="470" cy="51" r="5" fill="#FF6140" />
+		<circle cx="355" cy="98" r="5" fill="#FF6140" />
+		<circle cx="323" cy="53" r="5" fill="#FF6140" />
+		<circle cx="380" cy="90" r="5" fill="#FF6140" />
+
+		<text x="0" y="245" style="color: #ccc;">Expertise in discipline</text>
+		<text x="255" y="0" transform="rotate(90 255,0)">Ability to empower</text>
+		<text x="230" y="0" transform="rotate(90 230,0)">+50%...</text>
+		<text x="230" y="100" transform="rotate(90 230,100)">+25%</text>
+		<text x="230" y="210" transform="rotate(90 230,210)">+0%</text>
+		<text x="0" y="270">+0</text>
+		<text x="215" y="270">+50</text>
+		<text x="440" y="270">+100...</text>
+	</svg>
+</div>
+
 **Identify your net negatives and get rid of them immediately.** These are the most toxic people in your organization and they’re the ones you need to remedy or expel as quickly as possible. Net negatives actually lower the productivity of everyone they interact with and they can occur anywhere within the organization. They bring everyone around them *down* by 10%, 20%, or more. These are the people who create more work for everyone, the people others work around instead of with, and the people who are wildly unpredictable. What’s important to note here is that net negatives are extremely expensive people to keep in your organization. This is worst when a net negative is someone in a management position. Just like the manager who can have an exponentially positive effect if they are successful at enabling the people they manage, it can just as well have the opposite effect and exponentially decrease the productivity of the people who report to the net negative, all the way down to your experts at the leaves. The manager who fails to empower his direct reports make it harder for those people to manage their reports, and so forth. This is why bad managers are *so bad*, and this makes it very clear why it is so important to fire fast if someone is a net negative and can’t be coached.
+
+<div class="demo">
+	<p>Net Negatives</p>
+	<svg width="500" height="300">
+		<line x1="250" y1="0" x2="250" y2="300" stroke-width="2" stroke="#555" />
+		<line y1="150" x1="0" y2="150" x2="500" stroke-width="2" stroke="#555" />
+
+		<circle cx="150" cy="208" r="5" fill="#FF6140" />
+		<circle cx="232" cy="201" r="5" fill="#FF6140" />
+		<circle cx="190" cy="212" r="5" fill="#FF6140" />
+		<circle cx="255" cy="258" r="5" fill="#FF6140" />
+
+		<text x="0" y="145" style="color: #ccc;">Expertise in discipline</text>
+		<text x="255" y="0" transform="rotate(90 255,0)">Ability to empower</text>
+		<text x="230" y="0" transform="rotate(90 230,0)">+25%...</text>
+		<text x="230" y="110" transform="rotate(90 230,110)">+0%</text>
+		<text x="230" y="250" transform="rotate(90 230,250)">-25%...</text>
+		<text x="0" y="170">+0</text>
+		<text x="215" y="170">+50</text>
+		<text x="440" y="170">+100...</text>
+	</svg>
+</div>
 
 # How do you find these people?
 As an exercise, do the following: think about the people in your organization and put them into each of these buckets by asking some simple questions:
