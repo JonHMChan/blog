@@ -86,6 +86,15 @@ styles.html.body['.post'] = {
 			"p": {
 				"font-size": 14,
 				"color": "#555"
+			},
+			".social": {
+				"text-align": "right",
+				"a": {
+					"line-height": "50px",
+					"color": "#555",
+					"font-size": "1.3em",
+					"margin-right": "1em"
+				}
 			}
 		}
 	},
