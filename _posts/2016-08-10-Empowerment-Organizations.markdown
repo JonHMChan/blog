@@ -138,7 +138,7 @@ Thinking this way has helped me model what I see in organizations that practice 
 <div class="demo">
 	<p>Empowerment vs Expertise</p>
 	<svg width="500" height="300">
-		<text x="0" y="245" style="color: #ccc;">Expertise in discipline</text>
+		<text x="0" y="245" style="fill: #555;">Expertise in discipline</text>
 		<text x="255" y="0" transform="rotate(90 255,0)">Ability to empower</text>
 		<text x="230" y="0" transform="rotate(90 230,0)">+50%...</text>
 		<text x="230" y="100" transform="rotate(90 230,100)">+25%</text>
