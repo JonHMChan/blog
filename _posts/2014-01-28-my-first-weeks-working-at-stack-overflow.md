@@ -2,6 +2,7 @@
 layout: post
 title: "My First Six Weeks Working at Stack Overflow"
 hero: https://jonchan.io/img/essays/my-first-six-weeks-at-stack-overflow.jpeg
+opacity: 0
 description: "This is a walkthrough of my first few weeks working as a developer at Stack Overflow: onboarding, learning, and my experiences inside the company"
 ---
 
