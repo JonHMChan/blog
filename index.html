@@ -1,109 +1,25 @@
 ---
 layout: default
 ---
+<div class="wrapper">
+  <h1>Jon Chan</h1>
+  <section class="essays">
 
-<section class="me">
+    <h2>Esssays</h2>
 
-</section>
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-<!--
-<section class="about">
-  <h2>About</h2>
-  
-  <h3>What I look for</h3>
-  <p>If you want me to work with you, there's three things I like for in every opportunity.</p>
-  <div class="row">
-    <div class="col4">
-      <p class="heading">Smart People</p>
-      <p>I maximize for learning on a regular basis, and I think the best way to do that is to surround myself with really smart people. Am I working with people who have superpowers?</p>
-    </div>
-    <div class="col4">
-      <p class="heading">Autonomy</p>
-      <p>I work best when empowered. That doesn't mean I want free reign, but that I feel I have the ability to control my own work and growth. I like to work outside the box.</p>
-    </div>
-    <div class="col4">
-      <p class="heading">Impact</p>
-      <p>I care about my individual contributions impacting the world at large. How much will what I do actually impact the world at large in numbers of people and change felt?</p>
-    </div>
-  </div>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+        </li>
+      {% endfor %}
+    </ul>
 
-  <h3>What you might look for</h3>
-  <p>You can think of what I'm doing in two dimensions: areas of expertise and capability.</p>
-  <table>
-    <tr>
-      <td>Me</td>
-      <td>
-        <p class="heading">Targeted</p>
-        <p>Do I want to work for your organization or effort in a unique way?</p>
-      </td>
-      <td>
-        <p class="heading">Experience</p>
-        <p>Have I spent a significant number of hours in your field? Have I done this before?</p>
-      </td>
-      <td>
-        <p class="heading">Depth</p>
-        <p>How much expertise do I have in your field? Do I do really hard things in your area?</p>
-      </td>
-      <td>
-        <p class="heading">Passion</p>
-        <p>Do I care about your field and am I passionate about the work? Do I do more than required?</p>
-      </td>
-      <td>
-        <p class="heading">Gets Things Done</p>
-        <p>Do I start things myself and take them to finish line? Do I lead and get asked questions?</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p class="heading">Leadership</p>
-        <p>My main craft is engineering around the web. I'm a full stack web developer that has an affinity for front end, design, and tools.</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p class="heading">Engineering</p>
-        <p>My main craft is engineering around the web. I'm a full stack web developer that has an affinity for front end, design, and tools.</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p class="heading">Engineering</p>
-        <p>My main craft is engineering around the web. I'm a full stack web developer that has an affinity for front end, design, and tools.</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p class="heading">Engineering</p>
-        <p>My main craft is engineering around the web. I'm a full stack web developer that has an affinity for front end, design, and tools.</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p class="heading">Engineering</p>
-        <p>My main craft is engineering around the web. I'm a full stack web developer that has an affinity for front end, design, and tools.</p>
-      </td>
-    </tr>
-  </table>
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</section>
--->
-
-<section class="essays">
-
-  <h2>Esssays</h2>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</section>
+  </section>
+</div>
