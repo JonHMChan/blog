@@ -2,7 +2,7 @@
 layout: post
 title: "Marketing for Developers"
 hero: https://jonchan.io/img/essays/marketing-for-developers.jpeg
-opacity: 0.7
+opacity: 0.5
 description: "A lot of times, marketers and developers are on opposite ends of the spectrum, but now more than ever, they have a lot more in common than you think."
 ---
 
