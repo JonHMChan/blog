@@ -9,7 +9,7 @@
   <meta property="og:image" content="{{ page.hero }}"/>
   {% endif %}
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
-  <meta property="og:url" content="{{ page.url }}"/>
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
   <meta property="og:site_name" content="Jon Chan"/>
   <meta property="og:description" content="{{ page.description }}">
   <meta property="og:type" content="website"/>

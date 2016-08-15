@@ -6,28 +6,6 @@ opacity: 0.7
 description: "How can you measure an organization's ability to practice servant leadership, and what role does each person in an organization play? This is how I think about empowerment in organizations."
 ---
 
-<script type="text/javascript">
-	Descartes.add({
-		"html": {
-			".demo": {
-				"margin": "2em 0",
-				"text-align": "center",
-				"width": "100%",
-				"overflow": "scroll",
-				"table": {
-					"width": "80%",
-					"margin": "0 auto",
-					"td": {
-						"width": "20%",
-						"text-align": "center",
-						"vertical-align": "middle"
-					}
-				}
-			}
-		}
-	})
-</script>
-
 One of the trends I’ve noticed when talking to people about management is servant leadership. At many of the organizations I admire and have been a part of, we think of management as a support role in the company. As a manager, it is not your job to tell people what to do or what projects to work on, but rather to remove obstacles and enable your “reports” in the best way possible.
 
 # Empowerment
@@ -306,3 +284,25 @@ I’ve always thought it might be interesting to take this categorization exerci
 I think servant leadership in management can be manifested more clearly by thinking about what I call Empowerment Organizations. The effectiveness of your management is gauged by how well you enable people across the organization and remedy or weed out people toxic to others they work with. Take a moment and think about the people you work with, and think about how you might classify each person. How do you think your peers would classify you? Perhaps most importantly, think about how you would classify yourself, and what you want to be. Which one are you?
 
 *Thanks to David, Alexa, and Hoon for taking providing feedback on drafts of this essay*
+
+<script type="text/javascript">
+	Descartes.add({
+		"html": {
+			".demo": {
+				"margin": "2em 0",
+				"text-align": "center",
+				"width": "100%",
+				"overflow": "scroll",
+				"table": {
+					"width": "80%",
+					"margin": "0 auto",
+					"td": {
+						"width": "20%",
+						"text-align": "center",
+						"vertical-align": "middle"
+					}
+				}
+			}
+		}
+	})
+</script>
