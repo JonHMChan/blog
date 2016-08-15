@@ -3,7 +3,7 @@ layout: post
 title: "Empowerment Organizations"
 hero: https://jonchan.io/img/essays/empowerment-organizations.jpeg
 opacity: 0.7
-description: "How can you measure an organization's ability to practice servant leadership, and what role does each person in an organization play? This is how I think about empowerment in organizations."
+description: "How can you measure an organization's ability to practice servant leadership, and what role does each person play? I believe it's about each person's ability to empower."
 ---
 
 One of the trends I’ve noticed when talking to people about management is servant leadership. At many of the organizations I admire and have been a part of, we think of management as a support role in the company. As a manager, it is not your job to tell people what to do or what projects to work on, but rather to remove obstacles and enable your “reports” in the best way possible.
