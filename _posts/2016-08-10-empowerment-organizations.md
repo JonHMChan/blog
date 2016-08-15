@@ -289,10 +289,13 @@ I think servant leadership in management can be manifested more clearly by think
 	Descartes.add({
 		"html": {
 			".demo": {
+				"alias": "demo",
 				"margin": "2em 0",
 				"text-align": "center",
 				"width": "100%",
-				"overflow": "scroll",
+				"overflow-x": function() {
+					return window.innerWidth > 800 ? "hidden" : "scroll";
+				},
 				"table": {
 					"width": "80%",
 					"margin": "0 auto",
@@ -305,4 +308,5 @@ I think servant leadership in management can be manifested more clearly by think
 			}
 		}
 	})
+	$(window).resize(Descartes.alias.demo["overflow-x"])
 </script>
