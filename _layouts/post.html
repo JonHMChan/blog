@@ -17,9 +17,8 @@ layout: default
 				&nbsp;
 				</div>
 				<div class="col4 social">
-					<a href="https://twitter.com/jonhmchan"><i class="fa fa-twitter fa-1x"></i></a>
-					<a href="https://twitter.com/jonhmchan"><i class="fa fa-facebook fa-1x"></i></a>
-					<a href="https://twitter.com/jonhmchan"><i class="fa fa-twitter fa-1x"></i></a>
+					<a href="http://twitter.com/intent/tweet?text={{page.title}} by @jonhmchan {{ site.url }}{{ site.baseurl }}{{ page.url }}" target="_blank"><i class="fa fa-twitter fa-1x"></i></a>
+					<a href="http://www.facebook.com/sharer.php?u={{page.title | replace: ' ', '%20' | replace: '&', '%26' | replace: '?', '%3F' | replace: '!', '%21' | replace: ',', '%2C' | replace: "'", "%27" }}%20by%20Jon%20Chan%20{{ site.url }}{{ site.baseurl }}{{ page.url }}" target="_blank"><i class="fa fa-facebook fa-1x"></i></a>
 				</div>
 			</div>
 		</div>
@@ -32,13 +31,19 @@ layout: default
 	    	<h1>{{ page.title }}</h1>
 	    	<p>{{ page.description }}</p>
     	</div>
-    	<div class="scroll">Scroll to read<br/><i class="fa fa-caret-down"></i></div>
+    	<div class="scroll">Scroll down<br/><i class="fa fa-caret-down"></i></div>
   	</header>
 
   	<div class="wrapper">
 	  	<article>
 	    	{{ content }}
 	  	</article>
+  	</div>
+
+  	<div class="wrapper">
+  		<div class="related">
+
+  		</div>
   	</div>
 </div>
 
