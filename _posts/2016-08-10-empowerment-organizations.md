@@ -140,7 +140,7 @@ Here’s how I think about all three:
 
 ## Experts
 
-**Get good at hiring individual contributors who are experts; they’re the bread and butter of your organization..** Experts are concentrated at the leaves of your organization and typically your individual contributors. They’re the engineers, designers, marketers, and salespeople that are focused on being really good at their discipline. They’re the people that are concerned with being +40 and getting to +50 and getting to +60 and so forth. These are people who find themselves really loving their discipline and are obsessed with mastering it. They’re the ones that do the labor of the organization: writing code, creating designs, making sales calls, launching campaigns, etc. They’re the bread and butter of your organization and the high octane fuel that runs the day-to-day activity as a base.
+**Get good at hiring individual contributors who are experts; they’re the bread and butter of your organization.** Experts are concentrated at the leaves of your organization and typically your individual contributors. They’re the engineers, designers, marketers, and salespeople that are focused on being really good at their discipline. They’re the people that are concerned with being +40 and getting to +50 and getting to +60 and so forth. These are people who find themselves really loving their discipline and are obsessed with mastering it. They’re the ones that do the labor of the organization: writing code, creating designs, making sales calls, launching campaigns, etc. They’re the bread and butter of your organization and the high octane fuel that runs the day-to-day activity as a base.
 
 <div class="demo">
 	<p>Experts</p>
