@@ -3,30 +3,8 @@ layout: post
 title: "Empowerment Organizations"
 hero: https://jonchan.io/img/essays/empowerment-organizations.jpeg
 opacity: 0.7
-description: "How can you measure an organization's ability to practice servant leadership, and what role does each person in an organization play? This is how I think about empowerment in organizations."
+description: "How can you measure an organization's ability to practice servant leadership, and what role does each person play? I believe it's about each person's ability to empower."
 ---
-
-<script type="text/javascript">
-	Descartes.add({
-		"html": {
-			".demo": {
-				"margin": "2em 0",
-				"text-align": "center",
-				"width": "100%",
-				"overflow": "scroll",
-				"table": {
-					"width": "80%",
-					"margin": "0 auto",
-					"td": {
-						"width": "20%",
-						"text-align": "center",
-						"vertical-align": "middle"
-					}
-				}
-			}
-		}
-	})
-</script>
 
 One of the trends I’ve noticed when talking to people about management is servant leadership. At many of the organizations I admire and have been a part of, we think of management as a support role in the company. As a manager, it is not your job to tell people what to do or what projects to work on, but rather to remove obstacles and enable your “reports” in the best way possible.
 
@@ -66,7 +44,7 @@ Let me give you an example: say I’m a software engineer. You can imagine there
 </div>
 
 
-Now let’s switch gears: imagine that I’m now an engineering manager. Say I get to the +50 level, and your first instinct about why I became a manager is simply that a manager is someone who crosses some sufficiently advanced contribution threshold. In an Empowerment Organization, I think this is the wrong way to think about how managers are chosen. I actually think what happens when someone becomes a manager is that their primary responsibility changes: your job as an engineering manager isn’t now to get from +50 value to +60 value and perfect your ability to produce high quality code. At this point, it's there's diminishing returns in your ability to level yourself up. Instead, your responsibility is to  increase the contributions of your direct reports by say 20%. As a result, the sum effect of your ability to empower, mentor, and unlock the abilities of those who “report” into you would be far greater than you increasing your individual contribution coding. In other words, what makes you a manager isn’t your skill in a discipline, but your ability to empower people around you.
+Now let’s switch gears: imagine that I’m now an engineering manager. Say I get to the +50 level, and your first instinct about why I became a manager is simply that a manager is someone who crosses some sufficiently advanced contribution threshold. In an Empowerment Organization, I think this is the wrong way to think about how managers are chosen. I actually think what happens when someone becomes a manager is that their primary responsibility changes: your job as an engineering manager isn’t now to get from +50 value to +60 value and perfect your ability to produce high quality code. At this point, there's diminishing returns in your ability to level yourself up. Instead, your responsibility is to  increase the contributions of your direct reports by, say, 20%. As an engineering manager, VP of Engineering, or CTO, the sum effect of your ability to empower, mentor, and unlock the abilities of those who “report” into you would be far greater than you increasing your individual contribution coding. In other words, what makes you a manager isn’t your skill in a discipline, but your ability to empower people around you.
 
 
 <div class="demo">
@@ -131,14 +109,12 @@ Now let’s switch gears: imagine that I’m now an engineering manager. Say I g
 	</table>
 </div>
 
-
-
-Thinking this way has helped me model what I see in organizations that practice servant leadership. As an engineering manager, VP of Engineering, or CTO, your job is no longer to become a better engineer and produce code. In fact, once you get into the management layer of the engineering organization, you hardly code at all. Instead, your main responsibility is to make sure the people that you are responsible for are getting better, don’t have unnecessary obstacles blocking them, and stay happy. I believe that bad managers are the ones that don’t understand or practice empowerment. A bad manager will want to do the work for the people they manage because they probably can do the job better, but they shouldn’t: they’re better off spending their time teaching other engineers how to produce quality code rather than doing it themselves. A bad manager that doesn’t do the work might instead try to tell the people they manage how to do their work: taken to its extreme, it boils down to micromanagement and some of the worst kind of management behavior. These scenarios commonly happen when organizations promote people who are very good at their “craft” - whether it be engineering, marketing, sales, or any other discipline - but are terrible at empowering other people. These organizations don’t understand that being good at your craft does not imply that someone will be good at managing others. Managing is essentially a discipline of its own which is about empowering people: motivating, enabling, and removing obstacles in people’s way.
+I believe that bad managers are the ones that don’t understand or practice empowerment. A bad manager will want to do the work for the people they manage because they think they can do the job better, but they shouldn’t: they’re better off spending their time teaching other engineers their skills instead. Possibly worse, a bad manager that just *tells* the people they manage how to do their work boils down to micromanagement and exhibits some of the worst kind of management behavior. These scenarios commonly happen when organizations promote people who are very good at their “craft” - whether it be engineering, marketing, sales, or any other discipline - but are terrible at empowering other people. These organizations don’t understand that being good at your craft does not imply that someone will be good at managing others. Managing is essentially a discipline of its own which is about empowering people: motivating, enabling, and removing obstacles in people’s way.
 
 <div class="demo">
 	<p>Empowerment vs Expertise</p>
 	<svg width="500" height="300">
-		<text x="0" y="245" style="color: #ccc;">Expertise in discipline</text>
+		<text x="0" y="245" style="fill: #555;">Expertise in discipline</text>
 		<text x="255" y="0" transform="rotate(90 255,0)">Ability to empower</text>
 		<text x="230" y="0" transform="rotate(90 230,0)">+50%...</text>
 		<text x="230" y="100" transform="rotate(90 230,100)">+25%</text>
@@ -149,11 +125,12 @@ Thinking this way has helped me model what I see in organizations that practice 
 		<line x1="250" y1="0" x2="250" y2="300" stroke-width="2" stroke="#555" />
 		<line y1="250" x1="0" y2="250" x2="500" stroke-width="2" stroke="#555" />
 	</svg>
+	<p>Someone's ability to empower and their expertise are two different dimensions</p>
 </div>
 
 
 # Experts, Force Multipliers, and Net Negatives
-So when you think about an Empowerment Organization, you can generally categorize every person somewhere into three buckets: 
+When you think about an Empowerment Organization, you can generally categorize every person somewhere into three buckets: 
 
  1. experts 
  2. force multipliers
@@ -161,7 +138,9 @@ So when you think about an Empowerment Organization, you can generally categoriz
 
 Here’s how I think about all three: 
 
-**Get good at hiring individual contributors who are experts; they’re the bread and butter of your organization.** Experts are concentrated at the leaves of your organization: they’re the engineers, designers, marketers, and salespeople that are focused on being good at their discipline. They’re the people that are concerned with being +40 and getting to +50 and getting to +60 and so forth. These are people who find themselves really loving their discipline and are obsessed with mastering it. They’re the ones that do the labor of the organization: writing code, creating designs, making sales calls, launching campaigns, etc. They’re the bread and butter of your organization and the high octane fuel that runs the day-to-day activity as a base.
+## Experts
+
+**Get good at hiring individual contributors who are experts; they’re the bread and butter of your organization..** Experts are concentrated at the leaves of your organization and typically your individual contributors. They’re the engineers, designers, marketers, and salespeople that are focused on being really good at their discipline. They’re the people that are concerned with being +40 and getting to +50 and getting to +60 and so forth. These are people who find themselves really loving their discipline and are obsessed with mastering it. They’re the ones that do the labor of the organization: writing code, creating designs, making sales calls, launching campaigns, etc. They’re the bread and butter of your organization and the high octane fuel that runs the day-to-day activity as a base.
 
 <div class="demo">
 	<p>Experts</p>
@@ -204,9 +183,14 @@ Here’s how I think about all three:
 		<text x="215" y="270">+50</text>
 		<text x="440" y="270">+100...</text>
 	</svg>
+	<p>If you plot each of your experts in your organization, this is probably what you might see</p>
 </div>
 
-**Use your force multipliers to level up your experts.** Force multipliers go up the organization and are focused primarily on increasing the productivity of the people they’re responsible for: they’re your managers. These are the people who are focused on getting their “reports” more productive overall by 10%, 20%, or more. For example, this is the engineering manager who thinks about coding standards, does one-on-ones with the engineers that report to her, and thinks about how to make working as an engineer easier. It is not her responsibility to be coding features that are ultimately part of the product. Instead, she might only code to make engineers’ lives easier, by say, working on local environment setup to make onboarding easier for new engineers. The important thing here to note is that force multipliers can be managers of managers as well: these are your directors, vice presidents, all the way up to the CEO. Your job as a manager of managers then is to think about how well your reports manage others. Ultimately, this means the job of the CEO is to make sure her own circle is empowered. She is thinking about how the CMO, CFO, and her other direct reports are empowering the entire slice of the organization they are responsible for. As a result, in great Empowerment Organizations, the effect of a force multiplier CEO trickles down and ultimately increases the productivity of the experts at the leaves of the organization exponentially.
+## Force Multipliers
+
+**Use your force multipliers to level up your experts.** Force multipliers go up the organization and are focused primarily on increasing the productivity of the people they’re responsible for: they’re your managers. These are the people who are focused on improving their productivity by 10%, 20%, or more. For example, this is the engineering manager who thinks about coding standards, does one-on-ones with the engineers that report to her, and thinks about how to make working as an engineer easier. It is not her responsibility to be coding features that are ultimately part of the product. Instead, she might only code to make engineers’ lives easier, by say, working on local environment setup to make onboarding easier for new engineers.
+
+The important thing here to note is that force multipliers can be managers of managers as well: these are your directors, vice presidents, all the way up to the CEO. Your job as a manager of managers then is to think about how well your reports manage others. Ultimately, this means the job of the CEO is to make sure her own circle is empowered. She is thinking about how the CMO, CFO, and her other direct reports are empowering the entire slice of the organization they are responsible for. As a result, in great Empowerment Organizations, the effect of a force multiplier CEO trickles down and ultimately increases the productivity of the experts at the leaves of the organization exponentially.
 
 <div class="demo">
 	<p>Force Multipliers</p>
@@ -240,9 +224,14 @@ Here’s how I think about all three:
 		<text x="215" y="270">+50</text>
 		<text x="440" y="270">+100...</text>
 	</svg>
+	<p>Your experts are focused on empowering, but may also be great experts</p>
 </div>
 
-**Identify your net negatives and get rid of them immediately.** These are the most toxic people in your organization and they’re the ones you need to remedy or expel as quickly as possible. Net negatives actually lower the productivity of everyone they interact with and they can occur anywhere within the organization. They bring everyone around them *down* by 10%, 20%, or more. These are the people who create more work for everyone, the people others work around instead of with, and the people who are wildly unpredictable. What’s important to note here is that net negatives are extremely expensive people to keep in your organization. This is worst when a net negative is someone in a management position. Just like the manager who can have an exponentially positive effect if they are successful at enabling the people they manage, it can just as well have the opposite effect and exponentially decrease the productivity of the people who report to the net negative, all the way down to your experts at the leaves. The manager who fails to empower his direct reports make it harder for those people to manage their reports, and so forth. This is why bad managers are *so bad*, and this makes it very clear why it is so important to fire fast if someone is a net negative and can’t be coached.
+## Net Negatives
+
+**Identify your net negatives and get rid of them immediately.** These are the most toxic people in your organization and they’re the ones you need to pay attention to as quickly as possible. Net negatives are people who actually *lower* the productivity of everyone they interact with and they can occur anywhere within the organization. They bring everyone's productivity around them down by 10%, 20%, or more. These are the people who create more work for everyone, the people others work around instead of with, and the people who are wildly unpredictable.
+
+Net negatives are the most harmful when put in a management position. Contrasting with the force mulitplier manager who has an exponentially positive effect that trickles down, net negatives can have the opposite effect and exponentially decrease the productivity everyone that reports into him. The net negative manager who fails to empower his direct reports make it harder for those people to manage their reports, and so forth. This is why bad managers are *so bad* and makes it very clear why it is so important to identify and address net negatives as quickly as possible.
 
 <div class="demo">
 	<p>Net Negatives</p>
@@ -264,10 +253,11 @@ Here’s how I think about all three:
 		<text x="215" y="170">+50</text>
 		<text x="440" y="170">+100...</text>
 	</svg>
+	<p>Net negatives lower the productivity of the people around them</p>
 </div>
 
 # How do you find these people?
-As an exercise, do the following: think about the people in your organization and put them into each of these buckets by asking some simple questions:
+Do the following: think about the people in your organization and put them into each of these buckets by asking some simple questions:
 
 **Experts**
 
@@ -291,4 +281,32 @@ I’ve always thought it might be interesting to take this categorization exerci
 
 **Finally...**
 
-The ultimate takeaway here is that servant leadership in management can be manifested more clearly by thinking about what I call Empowerment Organizations. The effectiveness of your management is gauged by how well you enable people across the organization and remedy or weed out people toxic to others they work with. It’s servant leadership manifest into a management model around empowerment.
+I think servant leadership in management can be manifested more clearly by thinking about what I call Empowerment Organizations. The effectiveness of your management is gauged by how well you enable people across the organization and remedy or weed out people toxic to others they work with. Take a moment and think about the people you work with, and think about how you might classify each person. How do you think your peers would classify you? Perhaps most importantly, think about how you would classify yourself, and what you want to be. Which one are you?
+
+*Thanks to David, Alexa, and Hoon for taking providing feedback on drafts of this essay*
+
+<script type="text/javascript">
+	Descartes.add({
+		"html": {
+			".demo": {
+				"alias": "demo",
+				"margin": "2em 0",
+				"text-align": "center",
+				"width": "100%",
+				"overflow-x": function() {
+					return window.innerWidth > 800 ? "hidden" : "scroll";
+				},
+				"table": {
+					"width": "80%",
+					"margin": "0 auto",
+					"td": {
+						"width": "20%",
+						"text-align": "center",
+						"vertical-align": "middle"
+					}
+				}
+			}
+		}
+	})
+	$(window).resize(Descartes.alias.demo["overflow-x"])
+</script>

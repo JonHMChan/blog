@@ -29,6 +29,10 @@ var body = {}
 var nav = {
 }
 
+var anchor = {
+	"color": "#FF6140"
+}
+
 var _navigator = {
 	"display": "none",
 	"position": "fixed",
@@ -62,6 +66,7 @@ styles.html.body.nav['.navigator'] = _navigator
 styles.html.body.p = reset
 styles.html.body.h1 = header(1)
 styles.html.body.h2 = header(2)
+styles.html.body.a = anchor
 styles.html.body['.post'] = {
 	"height": "100%",
 	".essay-nav": {
