@@ -283,7 +283,7 @@ I’ve always thought it might be interesting to take this categorization exerci
 
 I think servant leadership in management can be manifested more clearly by thinking about what I call Empowerment Organizations. The effectiveness of your management is gauged by how well you enable people across the organization and remedy or weed out people toxic to others they work with. Take a moment and think about the people you work with, and think about how you might classify each person. How do you think your peers would classify you? Perhaps most importantly, think about how you would classify yourself, and what you want to be. Which one are you?
 
-*Thanks to David, Alexa, and Hoon for taking providing feedback on drafts of this essay*
+*Thanks to David, Alexa, and Hoon for providing feedback on drafts of this essay*
 
 <script type="text/javascript">
 	Descartes.add({
