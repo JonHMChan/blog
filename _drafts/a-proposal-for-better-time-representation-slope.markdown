@@ -2,7 +2,7 @@
 title: A Proposal For Better Time Representation (SLOPE)
 date: 2017-07-02 16:53:00 Z
 categories:
-- essay
+- essays
 layout: post
 ---
 
