@@ -1,9 +1,11 @@
 ---
+title: Marketing for Developers
+date: 2014-12-09 00:00:00 Z
 layout: post
-title: "Marketing for Developers"
 hero: https://jonchan.io/img/essays/marketing-for-developers.jpeg
 opacity: 0.5
-description: "A lot of times, marketers and developers are on opposite ends of the spectrum, but now more than ever, they have a lot more in common than you think."
+description: A lot of times, marketers and developers are on opposite ends of the
+  spectrum, but now more than ever, they have a lot more in common than you think.
 ---
 
 Amongst my developer colleagues, I find that I'm an anomaly when it comes my stance on marketing. For many of my peers, and I think to the general public, marketing has - rather ironically - been given a bad rep. It's seen as a finicky field: engaged in activities that are hard to measure, and at its worst, it's seen as a spurious profession. I think this reputation is the end result of a lot of bad apples that not only execute marketing badly, but as a result, have ruined it for the rest of the lot.

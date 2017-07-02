@@ -1,13 +1,20 @@
-# Site settings
+---
 title: Jon Chan
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: me@jonhmchan.com
-description: > # this means to ignore newlines until "baseurl:"
-  I think a lot about code, food, and philosophy.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://jonchan.io" # the base hostname & protocol for your site
-twitter_username: jonhmchan
-github_username:  jonhmchan
+description: 'I think a lot about code, food, and philosophy.
 
-# Build settings
+'
+baseurl: ''
+url: https://jonchan.io
+twitter_username: jonhmchan
+github_username: jonhmchan
 markdown: kramdown
-permalink: /essays/:title
+permalink: "/essays/:title"
