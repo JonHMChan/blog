@@ -1,11 +1,13 @@
 ---
 title: My First Six Weeks Working at Stack Overflow
 date: 2014-01-28 00:00:00 Z
-layout: post
+categories:
+- essay
 hero: https://jonchan.io/img/essays/my-first-six-weeks-at-stack-overflow.jpeg
 opacity: 0
 description: 'This is a walkthrough of my first few weeks working as a developer at
   Stack Overflow: onboarding, learning, and my experiences inside the company'
+layout: post
 ---
 
 I started working at Stack Overflow as a software developer just six weeks ago. This (lengthy) post is about a number of things: what it was like relearning a lot of what I know about web development, the challenges and resources I encountered doing so, and a few pointers others might benefit from on-boarding on a new development team.
