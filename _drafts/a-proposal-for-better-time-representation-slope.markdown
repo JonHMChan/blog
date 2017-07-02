@@ -88,22 +88,29 @@ Offsets should never be before the start for any reason. If there is a timestamp
 
 Finally, we reach the last part of the SLOPE representation, end. This is a Unix timestamp that specifies a ceiling for which all repeating intervals must end. In the original example, I used the end timestamp corresponding to May 15, 2050 12:00:00 AM PST. In this example, the SLOPE would not represent my birthday for 2050, because it is beyond the “hard stop” specified in end. Only if end were May 16, 2050 12:00:00 AM PST (exactly a day after, or the exact amount length is after that interval) would my 2050 birthday be included. This would also be the case for any recurrences denoted with offsets.
 
-Pros \+ Cons
+## Pros and Cons
 
-Pros
+**Pros**
 
-Completeness ​- I made SLOPE so that it could be unified representation for times for most use cases: single points in time, intervals of time, recurring intervals of time, and even multiple recurrences with offsets. These are all encompassed by a single representation that is not accounted for in others.\
-Better computability ​- SLOPE makes computation for times (expanding and calculating times) much more obvious than RFC3339 representations, especially when it comes to recurrences with things like RRULE, &c. RFC3339 and recurrence rules in current calendar formats are unintuitive. It strips away the need to convert RFC3339 formats to some computable format and back as well as the need to understand the arcane intricacies of recurrence rules. You just need some basic math.\
-Geographically independent - ​There is no reliance on time zones. I created SLOPE with the intention that it would be accurate regardless of its implementation in a specific region. Time zones embedded into time representations - in my experience - have made standardization and accuracy nightmare.\
-Intuitive ​- I did everything to make SLOPE intuitive. The name "SLOPE" is meant to be an easy-to-remember acronym that accurately explains a complete representation of time. The concepts explained by each part of the acronym are meant to be obvious as well.\
-Cons
+ * **Completeness** ​- I made SLOPE so that it could be unified representation for times for most use cases: single points in time, intervals of time, recurring intervals of time, and even multiple recurrences with offsets. These are all encompassed by a single representation that is not accounted for in others.
 
-Leap years ​- The biggest problem and probably a breaking point for the standard. The problem with unix timestamps is that it cannot account for leap years. This puts a big snag in the road for the concept of easily computable dates. My intuition says that the onus for accounting for leap years falls on the developer, rather than on the standard itself.\
-Not directly human readable ​- Though conceptually easy to understand, the reliance on Unix timestamps makes it difficult to hard-code a specific time without some assistance. However, this is something easily done with conversions built into most if not all major programming languages.\
-​Lack of recurrence exceptions ​- One of things SLOPE fails to capture is recurrence exceptions. Returning to the example of my birthdays from 1990 to 2050, if I wanted to exclude my 20th birthday, I wouldn't be able to like some other representations could. Then again, exceptions may be just that from a development standpoint - exceptions: I see them more as an accessory to time representation (like timezones) rather than a necessary component.\
-​Verbose ​- I do think that SLOPE can be verbose in a number of situations, especially when talking about single points in time or single intervals or time. Perhaps a short hand for SLOPE could be used (remember JSON is not a strict guideline) to solve this issue:
+ * **Better computability** ​- SLOPE makes computation for times (expanding and calculating times) much more obvious than RFC3339 representations, especially when it comes to recurrences with things like RRULE, &c. RFC3339 and recurrence rules in current calendar formats are unintuitive. It strips away the need to convert RFC3339 formats to some computable format and back as well as the need to understand the arcane intricacies of recurrence rules. You just need some basic math.
 
-<code>
+ * **Geographically independent** - ​There is no reliance on time zones. I created SLOPE with the intention that it would be accurate regardless of its implementation in a specific region. Time zones embedded into time representations - in my experience - have made standardization and accuracy nightmare.
+
+ * **Intuitive** ​- I did everything to make SLOPE intuitive. The name "SLOPE" is meant to be an easy-to-remember acronym that accurately explains a complete representation of time. The concepts explained by each part of the acronym are meant to be obvious as well.
+
+**Cons**
+
+ * **Leap years** ​- The biggest problem and probably a breaking point for the standard. The problem with unix timestamps is that it cannot account for leap years. This puts a big snag in the road for the concept of easily computable dates. My intuition says that the onus for accounting for leap years falls on the developer, rather than on the standard itself.
+
+ * **Not directly human readable** ​- Though conceptually easy to understand, the reliance on Unix timestamps makes it difficult to hard-code a specific time without some assistance. However, this is something easily done with conversions built into most if not all major programming languages.
+
+ * **Lack of recurrence exceptions** ​- One of things SLOPE fails to capture is recurrence exceptions. Returning to the example of my birthdays from 1990 to 2050, if I wanted to exclude my 20th birthday, I wouldn't be able to like some other representations could. Then again, exceptions may be just that from a development standpoint - exceptions: I see them more as an accessory to time representation (like timezones) rather than a necessary component.
+
+ * **Verbose** ​- I do think that SLOPE can be verbose in a number of situations, especially when talking about single points in time or single intervals or time. Perhaps a short hand for SLOPE could be used (remember JSON is not a strict guideline) to solve this issue:
+
+```
 ​General Format:
 start;length;offset1,offset2,...,offset3;period;end
 
@@ -118,7 +125,7 @@ Daily recurrence, no offsets:
 
 Daily recurrence with offsets:
 12345;60;23456,34567;86400;50000
-</code>
+```
 
 ## Your Thoughts
 
