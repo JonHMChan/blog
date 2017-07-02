@@ -2,7 +2,7 @@
 title: Marketing for Developers
 date: 2014-12-09 00:00:00 Z
 categories:
-- essay
+- essays
 hero: https://jonchan.io/img/essays/marketing-for-developers.jpeg
 opacity: 0.5
 description: A lot of times, marketers and developers are on opposite ends of the
