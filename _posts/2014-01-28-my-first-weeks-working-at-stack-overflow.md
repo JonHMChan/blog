@@ -2,7 +2,7 @@
 title: My First Six Weeks Working at Stack Overflow
 date: 2014-01-28 00:00:00 Z
 categories:
-- essay
+- essays
 hero: https://jonchan.io/img/essays/my-first-six-weeks-at-stack-overflow.jpeg
 opacity: 0
 description: 'This is a walkthrough of my first few weeks working as a developer at
