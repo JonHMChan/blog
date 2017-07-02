@@ -2,7 +2,7 @@
 title: Empowerment Organizations
 date: 2016-08-10 00:00:00 Z
 categories:
-- essay
+- essays
 hero: https://jonchan.io/img/essays/empowerment-organizations.jpeg
 opacity: 0.7
 description: How can you measure an organization's ability to practice servant leadership,
