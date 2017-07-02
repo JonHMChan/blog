@@ -1,9 +1,9 @@
 ---
 title: A Proposal For Better Time Representation (SLOPE)
 date: 2017-07-02 16:53:00 Z
-layout: post
 categories:
 - essay
+layout: post
 ---
 
 I work a lot with times. As someone who’s been tackling the events space and especially with calendars for a while now, dealing with times is something that I have to deal with constantly—and with great difficulty. Understanding calendar formats, RFC specifications, different date objects in different languages (think `JavaScript Date()` nightmares)…these are all things that make my life as a programmer handling times an absolute mess. The problem is that there is no universal and “complete” (more on this) standard for representing time that is computably friendly. Here are just some of the issues:
