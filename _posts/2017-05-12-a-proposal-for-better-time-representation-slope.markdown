@@ -1,6 +1,6 @@
 ---
 title: A Proposal For Better Time Representation (SLOPE)
-date: 2017-05-12 00:00:00 -04:00
+date: 2013-05-12 00:00:00 -04:00
 categories:
 - essays
 layout: post
