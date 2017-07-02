@@ -1,6 +1,6 @@
 ---
 title: A Proposal For Better Time Representation (SLOPE)
-date: 2017-07-02 16:53:00 Z
+date: 2017-07-02 12:53:00 -04:00
 categories:
 - essays
 layout: post
@@ -74,15 +74,15 @@ Let’s now deal with `offset`, probably the most difficult part of the SLOPE re
 
 I could do the same to account for my other sister Eileen’s birthdays as well (starting September 8, 1993 at midnight or 747475200), to accommodate all three of our birthdays in the same SLOPE:
 
-<code>
+```
 {
-start: 642758400,
-length: 86400,
-offsets: \[680083200, 747475200\],
-period: 32536000,
-end: 2536218000
+    start: 642758400,
+    length: 86400,
+    offsets: [680083200, 747475200],
+    period: 32536000,
+    end: 2536218000
 }
-</code>
+```
 
 Offsets should never be before the start for any reason. If there is a timestamp that is earlier than one in offsets the earliest value should be switched with start (more on this later). In addition, it is best practice to order the timestamps in offsets in ascending order from earliest to latest.
 
