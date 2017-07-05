@@ -15,4 +15,4 @@ url: https://jonchan.io
 twitter_username: jonhmchan
 github_username: jonhmchan
 markdown: kramdown
-permalink: "/:categories/:title"
+permalink: "/:categories/:title/"
