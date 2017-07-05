@@ -1,9 +1,9 @@
 ---
 title: Marketing for Developers
-date: 2014-12-09 00:00:00 Z
+date: 2014-12-08 19:00:00 -05:00
 categories:
 - essays
-hero: https://jonchan.io/img/essays/marketing-for-developers.jpeg
+hero: "/uploads/marketing-for-developers.jpeg"
 opacity: 0.5
 description: A lot of times, marketers and developers are on opposite ends of the
   spectrum, but now more than ever, they have a lot more in common than you think.
