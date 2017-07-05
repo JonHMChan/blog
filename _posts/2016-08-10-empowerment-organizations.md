@@ -1,9 +1,9 @@
 ---
 title: Empowerment Organizations
-date: 2016-08-10 00:00:00 Z
+date: 2016-08-09 20:00:00 -04:00
 categories:
 - essays
-hero: https://jonchan.io/img/essays/empowerment-organizations.jpeg
+hero: "/uploads/empowerment-organizations.jpeg"
 opacity: 0.7
 description: How can you measure an organization's ability to practice servant leadership,
   and what role does each person play? I believe it's about each person's ability
