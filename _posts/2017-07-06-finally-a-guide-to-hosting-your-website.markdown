@@ -9,7 +9,7 @@ So you now know HTML, CSS, and JavaScript. You've done the interactive tutorials
 
 Since I built [Bento](https://bento.io/), I've heard this complaint time and time again, and it's a shortcoming for most learning resources on the web (even the ones that I admire and love). So here's a (lengthy) guide about how to write static web pages on your computer then put it on the Internet.
 
-One important note before we begin: this covers a very large number of topics that will get you to hosting a very basic website. This guide does \*not \*cover how to host a website with a back-end web framework, databases, caching, and so forth. I assume that since you are a beginner who needs this guide, your skill level is far more fundamental and you know only HTML, CSS, and maybe some JavaScript. I will probably write another post on hosting more sophisticated sites later on.
+One important note before we begin: this covers a very large number of topics that will get you to hosting a very basic website. This guide does *not* cover how to host a website with a back-end web framework, databases, caching, and so forth. I assume that since you are a beginner who needs this guide, your skill level is far more fundamental and you know only HTML, CSS, and maybe some JavaScript. I will probably write another post on hosting more sophisticated sites later on.
 
 Let's get started.
 
@@ -33,7 +33,7 @@ The first thing you need to know is how to get your HTML, CSS, and JavaScript ru
 
 * Save that file as **index.html** on your Desktop. It's very important that the name of the file after period is "html" - this part is known as the **file extension**. You might have noticed that images have different file extensions like jpg, gif, or png. This is just like that and it specifies what kind of file you are creating.
 
-* Open up a browser like Chrome, Safari, Firefox, or Internet Exploder. Go to File > Open File and find the **index.html** file you just created back on your Desktop.
+* Open up a browser like Chrome, Safari, Firefox, or Internet Exploder. Go to `File > Open File` and find the **index.html** file you just created back on your Desktop.
 
 * You should see "Hello World!" in your web browser. Try changing the contents of your index.html file with new HTML, save the file, and hit refresh on your browser. You'll see that it starts changing!
 
@@ -77,9 +77,9 @@ CSS and JavaScript work in a very similar way. You create files like **index.css
 
 * Open up **index.html** in your browser just like you did before (or refresh it if you already had it open). You'll see that your JavaScript gets executed, your CSS rules have been applied, and your HTML is there too!
 
-HTML files work in concert with CSS and JavaScript files. The <link> tag that you put in between the <head> tags allows you to refer to CSS rules \*in another file. \*In this case, it is **index.css**. You could have renamed your CSS file to anything you want as long as it had the CSS file extension after it. It could be **dog.css** or even **i-dont-care-what-I-call-it.css** and you would just need to change the "href" attribute in the <link> tag to make it work. It is generally good practice to put your CSS files within the <head> tags so that your style rules are loaded *before* anything after it shows up in the page. Otherwise, your content may look like ugly default HTML without styles for a split-second while the CSS is being loaded.
+HTML files work in concert with CSS and JavaScript files. The `<link>` tag that you put in between the `<head>` tags allows you to refer to CSS rules \*in another file. \*In this case, it is **index.css**. You could have renamed your CSS file to anything you want as long as it had the CSS file extension after it. It could be **dog.css** or even **i-dont-care-what-I-call-it.css** and you would just need to change the "href" attribute in the `<link>` tag to make it work. It is generally good practice to put your CSS files within the <head> tags so that your style rules are loaded *before* anything after it shows up in the page. Otherwise, your content may look like ugly default HTML without styles for a split-second while the CSS is being loaded.
 
-This ability to reference code in other files works exactly the same way for JavaScript except with the relevant <script> tag is right before the ending <body> tag and uses the the "src" attribute. It is generally good practice to put your JavaScript files at the end of your <body> tags so that it won't block the loading of HTML or CSS. Otherwise, it may give the user the impression that your site is very slow if you have a lot of JavaScript.
+This ability to reference code in other files works exactly the same way for JavaScript except with the relevant `<script>` tag is right before the ending `<body>` tag and uses the the "src" attribute. It is generally good practice to put your JavaScript files at the end of your `<body>` tags so that it won't block the loading of HTML or CSS. Otherwise, it may give the user the impression that your site is very slow if you have a lot of JavaScript.
 
 ### File Structure
 
@@ -89,7 +89,7 @@ Typically, what ends up happening is the following:
 
 * All of your site's files are put into a single folder. This includes HTML, CSS, JavaScript, and even images.
 
-* Your HTML files typically stay at the root of the folder while your other files go into folders separated by type. I typically create folders named css, js, and img for CSS, JavaScript, and images respectively.
+* Your HTML files typically stay at the root of the folder while your other files go into folders separated by type. I typically create folders named `css`, `js`, and `img` for CSS, JavaScript, and images respectively.
 
 * Your HTML needs to be modified to include the right paths for your different files if they are in different folders. For example, if you used the same folder names I did, your HTML would look like this (note the href attribute in the tag and the src attribute in the tag):
 
@@ -123,11 +123,11 @@ Typically, what ends up happening is the following:
 
 ### Why "index" for the file name?
 
-One last thing: you might be wondering why the HTML file is called **index.html** as opposed to anything else like **home.html** or **puppysareawesome.html**. This is because the default file to go to when accessing a folder in a browser - particularly when it hosted on a server - is **index.html**. This will be more apparent later when we actually publish your code.
+One last thing: you might be wondering why the HTML file is called **index.html** as opposed to anything else like **home.html** or **puppiesareawesome.html**. This is because the default file to go to when accessing a folder in a browser - particularly when it hosted on a server - is **index.html**. This will be more apparent later when we actually publish your code.
 
 ## How the Internet works, simplified
 
-Now that you know how build a simple site on your computer, it's time to take that knowledge and apply it to publishing it on the web. Pay attention here, because what you're about to read is probably the most important part of this entire guide. Y**ou need to realize is that the Internet is just a bunch of interconnected computers, and when you visit a site, you are using code that is on someone else's computer instead of yours**.
+Now that you know how build a simple site on your computer, it's time to take that knowledge and apply it to publishing it on the web. Pay attention here, because what you're about to read is probably the most important part of this entire guide. You need to realize is that the Internet is just a bunch of interconnected computers, and when you visit a site, you are using code that is on someone else's computer instead of yours.
 
 Let that bit of knowledge sink in a little.
 
@@ -141,11 +141,11 @@ When I type in "http://www.google.com/" in the address bar of a browser, a numbe
 
 * The code that is in the HTML, CSS, and JavaScript files is then interpreted by your browser (Chrome, Firefox, Internet Exploder) and used to display what you see in the window, just like you saw with the local files you created earlier.
 
-What is effectively happening when you access a website through a browser is that you're accessing code on someone else's computer that was sent to you instead of from somewhere on your machine like your Desktop. The main difference is that these are not the ordinary kind of computer like the one you're probably using to read this guide. These computers are known as \*\*servers \*\*and are designed to do exactly what their name implies: serve web pages. What that means for you as someone who wants to build a website is that you need to put your code somewhere where other people can access it too - on a server. There is a great video to watch about how this process works that I feature in the fundamentals portion of Bento - it's the first link on the whole site because it's so crucial to understand how this process works:
+What is effectively happening when you access a website through a browser is that you're accessing code on someone else's computer that was sent to you instead of from somewhere on your machine like your Desktop. The main difference is that these are not the ordinary kind of computer like the one you're probably using to read this guide. These computers are known as **servers** and are designed to do exactly what their name implies: serve web pages. What that means for you as someone who wants to build a website is that you need to put your code somewhere where other people can access it too - on a server. There is a great video to watch about how this process works that I feature in the fundamentals portion of Bento - it's the first link on the whole site because it's so crucial to understand how this process works:
 
-https://www.youtube.com/watch?v=7_LPdttKXPc
+[YouTube Video](https://www.youtube.com/watch?v=7_LPdttKXPc)
 
-What you need to learn now
+### What you need to learn now
 
 At this point, there are two major parts to getting your code running in a way that you're used to with other websites. The first part is actually putting your code to a server. The second part is getting a **domain name** that points to the server that you're putting your code on.
 
