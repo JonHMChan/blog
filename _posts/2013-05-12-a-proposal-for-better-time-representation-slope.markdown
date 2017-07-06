@@ -3,6 +3,10 @@ title: A Proposal For Better Time Representation (SLOPE)
 date: 2013-05-12 00:00:00 -04:00
 categories:
 - essays
+hero: "/uploads/slope.jpeg"
+opacity: 0.5
+description: 'SLOPE is an acronym for the necessary parts of my proposed event time
+  representation: start, length, offset, period, and end.'
 layout: post
 ---
 
