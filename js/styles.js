@@ -72,7 +72,7 @@ styles.html.body.p = reset
 styles.html.body.h1 = header(1)
 styles.html.body.h2 = header(2)
 styles.html.body.a = anchor
-styles.html.body.images = images
+styles.html.body.img = images
 styles.html.body['.post'] = {
 	"height": "100%",
 	".essay-nav": {
