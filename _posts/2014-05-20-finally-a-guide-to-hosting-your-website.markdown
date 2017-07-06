@@ -1,6 +1,8 @@
 ---
 title: Finally, a Guide to Hosting Your Website
-date: 2017-07-06 08:45:00 -04:00
+date: 2014-05-20 08:45:00 -04:00
+categories:
+- essays
 description: There aren't many guides on how to build a basic website on your computer
   then put it up on the Internet. Here's one that I wrote.
 opacity: 0.5
