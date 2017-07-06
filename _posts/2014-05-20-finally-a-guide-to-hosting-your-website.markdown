@@ -199,7 +199,7 @@ Now about that last point about it being shockingly easy: what that means is tha
 
 5. Publish your code by pushing your code to a branch called **gh-pages** in your repository. I'm also assuming here you know what git branching is - if not, [click here for a tutorial](http://pcottle.github.io/learnGitBranching/) used on Bento. The [full instructions](https://help.github.com/articles/creating-project-pages-manually) on how to do this from GitHub are very good, so make sure the read them.
 
-6. Once you've successfully pushed code to the gh-pages branch, you should be able to visit your site at: **http://<github username>.github.io/<repository name>**. For example, my GitHub username is **jonhmchan** and I could host my code in the gh-pages branch of a repository named **bento**. That means any code that commit and push to the gh-pages branch would be seen at **http://jonhmchan.github.io/bento**
+6. Once you've successfully pushed code to the gh-pages branch, you should be able to visit your site at: `http://<github username>.github.io/<repository name>`. For example, my GitHub username is **jonhmchan** and I could host my code in the gh-pages branch of a repository named **bento**. That means any code that commit and push to the gh-pages branch would be seen at `http://jonhmchan.github.io/bento`
 
 That's really it! Assuming you know how to use the shell, Git, and GitHub, all you need to do push your code to a branch called **gh-pages **and GitHub takes care of the rest! At this point, there's probably one more question lingering in your mind: how do I get a fancy domain name like **www.bentobox.io **if I don't want to use GitHub's auto-generated web addresses? That's where buying domains come in.
 
