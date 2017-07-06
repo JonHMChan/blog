@@ -77,13 +77,15 @@ CSS and JavaScript work in a very similar way. You create files like **index.css
 
 * Open up **index.html** in your browser just like you did before (or refresh it if you already had it open). You'll see that your JavaScript gets executed, your CSS rules have been applied, and your HTML is there too!
 
-HTML files work in concert with CSS and JavaScript files. The `<link>` tag that you put in between the `<head>` tags allows you to refer to CSS rules \*in another file. \*In this case, it is **index.css**. You could have renamed your CSS file to anything you want as long as it had the CSS file extension after it. It could be **dog.css** or even **i-dont-care-what-I-call-it.css** and you would just need to change the "href" attribute in the `<link>` tag to make it work. It is generally good practice to put your CSS files within the <head> tags so that your style rules are loaded *before* anything after it shows up in the page. Otherwise, your content may look like ugly default HTML without styles for a split-second while the CSS is being loaded.
+HTML files work in concert with CSS and JavaScript files. The `<link>` tag that you put in between the `<head>` tags allows you to refer to CSS rules *in another file*. In this case, it is **index.css**. You could have renamed your CSS file to anything you want as long as it had the CSS file extension after it. It could be **dog.css** or even **i-dont-care-what-I-call-it.css** and you would just need to change the "href" attribute in the `<link>` tag to make it work. It is generally good practice to put your CSS files within the <head> tags so that your style rules are loaded *before* anything after it shows up in the page. Otherwise, your content may look like ugly default HTML without styles for a split-second while the CSS is being loaded.
 
 This ability to reference code in other files works exactly the same way for JavaScript except with the relevant `<script>` tag is right before the ending `<body>` tag and uses the the "src" attribute. It is generally good practice to put your JavaScript files at the end of your `<body>` tags so that it won't block the loading of HTML or CSS. Otherwise, it may give the user the impression that your site is very slow if you have a lot of JavaScript.
 
 ### File Structure
 
 At this point, it should be clear that all you need to do when building a site on your computer is writing HTML, CSS, and JavaScript into text files with the right file extensions and firing them up in a browser (very simply put). However, putting all of your files onto the Desktop would become very cumbersome very quickly, so you should put your files into separate folders and even different types of files into different folders. Something like this:
+
+![hello.png](/uploads/hello.png)
 
 Typically, what ends up happening is the following:
 
