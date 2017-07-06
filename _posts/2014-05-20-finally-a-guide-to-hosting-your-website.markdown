@@ -189,9 +189,9 @@ Okay, what you *should* do is use [GitHub Pages](https://pages.github.com/). Ful
 
 Now about that last point about it being shockingly easy: what that means is that you might have to pick up a few new (but easy) skills along the way if you're a complete beginner. This is what I recommend:
 
-1. Learn how to interact with the shell on your computer. [Here's the Bento page for it](http://www.bentobox.io/shell). I highly recommend you start with the first link **Learning the Shell**.
+1. Learn how to interact with the shell on your computer. [Here's the Bento page for it](https://bento.io/shell). I highly recommend you start with the first link **Learning the Shell**.
 
-2. You need to learn Git. [Here's the Bento page for that](http://bentobox.io/git). I highly recommend you start with GitHub's own tutorial on Git, **Try Git**, which is the first beginner link on the page.
+2. You need to learn Git. [Here's the Bento page for that](https://bento.io/git). I highly recommend you start with GitHub's own tutorial on Git, **Try Git**, which is the first beginner link on the page.
 
 3. Once you learn how to use the shell, install Git on your machine, and how to use Git, you need a GitHub profile. Go to [http://github.com/](http://github.com/) and create a profile.
 
@@ -201,11 +201,11 @@ Now about that last point about it being shockingly easy: what that means is tha
 
 6. Once you've successfully pushed code to the gh-pages branch, you should be able to visit your site at: `http://<github username>.github.io/<repository name>`. For example, my GitHub username is **jonhmchan** and I could host my code in the gh-pages branch of a repository named **bento**. That means any code that commit and push to the gh-pages branch would be seen at `http://jonhmchan.github.io/bento`
 
-That's really it! Assuming you know how to use the shell, Git, and GitHub, all you need to do push your code to a branch called **gh-pages **and GitHub takes care of the rest! At this point, there's probably one more question lingering in your mind: how do I get a fancy domain name like **www.bentobox.io **if I don't want to use GitHub's auto-generated web addresses? That's where buying domains come in.
+That's really it! Assuming you know how to use the shell, Git, and GitHub, all you need to do push your code to a branch called **gh-pages** and GitHub takes care of the rest! At this point, there's probably one more question lingering in your mind: how do I get a fancy domain name like **www.bento.io** if I don't want to use GitHub's auto-generated web addresses? That's where buying domains come in.
 
 ## Getting a domain name
 
-The next thing you'll want to do is get a domain name. A domain name is how people will find your site: Google's domain name is **google.com** and Bento's domain name is **bentobox.io**. You'll have to register your domain name with any number of registrars like NameCheap, Gandi, or GoDaddy. Usually, these domains will be very cheap, sometimes as low as $10 a year. However, be careful with how you search or buy your domains though. Here are some things to keep in mind:
+The next thing you'll want to do is get a domain name. A domain name is how people will find your site: Google's domain name is **google.com** and Bento's domain name is **bento.io**. You'll have to register your domain name with any number of registrars like NameCheap, Gandi, or GoDaddy. Usually, these domains will be very cheap, sometimes as low as $10 a year. However, be careful with how you search or buy your domains though. Here are some things to keep in mind:
 
 * **Getting the perfect name is going to hard**. A lot of the great names have already been taken, especially on very common top level domains (TLDs) like .com and .io. Chances are, you're going to have to be pretty creative with your domain name unless you have a lot of money to shell out.
 
