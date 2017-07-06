@@ -7,7 +7,7 @@ description: There aren't many guides on how to build a basic website on your co
 
 So you now know HTML, CSS, and JavaScript. You've done the interactive tutorials, watched YouTube videos, and even picked up a few books. You know why [inline-styling is bad](http://stackoverflow.com/questions/2612483/whats-so-bad-about-in-line-css) and discovered the wonderful library that is [jQuery](http://jquery.com/). Then it dawns on you: you've learned the languages you should know, but you still have no idea how to take that code and turn it into a site on the Internet for the world to see.
 
-Since I built [Bento](http://bentobox.io/), I've heard this complaint time and time again, and it's a shortcoming for most learning resources on the web (even the ones that I admire and love). So here's a (lengthy) guide about how to write static web pages on your computer then put it on the Internet.
+Since I built [Bento](https://bento.io/), I've heard this complaint time and time again, and it's a shortcoming for most learning resources on the web (even the ones that I admire and love). So here's a (lengthy) guide about how to write static web pages on your computer then put it on the Internet.
 
 One important note before we begin: this covers a very large number of topics that will get you to hosting a very basic website. This guide does \*not \*cover how to host a website with a back-end web framework, databases, caching, and so forth. I assume that since you are a beginner who needs this guide, your skill level is far more fundamental and you know only HTML, CSS, and maybe some JavaScript. I will probably write another post on hosting more sophisticated sites later on.
 
@@ -21,17 +21,19 @@ The first thing you need to know is how to get your HTML, CSS, and JavaScript ru
 
 * Create a new file and type in the following HTML:
 
+```
   <html>
-  <head>
-  </head>
-  <body>
-  <p>Hello World!</p>
-  </body>
+    <head>
+    </head>
+    <body>
+      <p>Hello World!</p>
+    </body>
   </html>
+```
 
-* Save that file as \*\*index.html \*\*on your Desktop. It's very important that the name of the file after period is "html" - this part is known as the **file extension**. You might have noticed that images have different file extensions like jpg, gif, or png. This is just like that and it specifies what kind of file you are creating.
+* Save that file as **index.html** on your Desktop. It's very important that the name of the file after period is "html" - this part is known as the **file extension**. You might have noticed that images have different file extensions like jpg, gif, or png. This is just like that and it specifies what kind of file you are creating.
 
-* Open up a browser like Chrome, Safari, Firefox, or Internet Exploder. Go to File > Open File and find the \*\*index.html \*\*file you just created back on your Desktop.
+* Open up a browser like Chrome, Safari, Firefox, or Internet Exploder. Go to File > Open File and find the **index.html** file you just created back on your Desktop.
 
 * You should see "Hello World!" in your web browser. Try changing the contents of your index.html file with new HTML, save the file, and hit refresh on your browser. You'll see that it starts changing!
 
@@ -43,36 +45,41 @@ CSS and JavaScript work in a very similar way. You create files like **index.css
 
 * Create a *new* file in your text editor and type in the following CSS code:
 
+```
   html {
-  color: blue;
+    color: blue;
   }
+```
 
 * Save the file as **index.css** on your Desktop (notice the new file extension, **css**). It needs to be in the same directory as your **index.html** file (for now).
 
 * Create *another* new file in your text editor and type in the following JavaScript code:
 
+```
   alert("This is an alert I created in index.js!");
+```
 
-* Save the file as **index.js** on your Desktop (notice the new file extension, **js**). This file also needs to be in the same directory as your \*\*index.html \*\*file and **index.css** file (in this case, the Desktop).
+* Save the file as **index.js** on your Desktop (notice the new file extension, **js**). This file also needs to be in the same directory as your **index.html** file and **index.css** file (in this case, the Desktop).
 
 * Finally, change your **index.html** file with the following code and save it.
 
+```
   <html>
-  <head>
-  <link rel="stylesheet" type="text/css" href="index.css">
-  </head>
-  <body>
-  <p>Hello world! This text should be blue because of the CSS I wrote in index.css!</p>
-  <script type="text/javascript" src="index.js"></script>
-  </body>
+    <head>
+      <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+      <p>Hello world! This text should be blue because of the CSS I wrote in index.css!</p>
+      <script type="text/javascript" src="index.js"></script>
+    </body>
   </html>
-
+```
 
 * Open up **index.html** in your browser just like you did before (or refresh it if you already had it open). You'll see that your JavaScript gets executed, your CSS rules have been applied, and your HTML is there too!
 
-HTML files work in concert with CSS and JavaScript files. The <link> tag that you put in between the <head> tags allows you to refer to CSS rules \*in another file. \*In this case, it is **index.css**. You could have renamed your CSS file to anything you want as long as it had the CSS file extension after it. It could be **dog.css** or even \*\*i-dont-care-what-I-call-it.css \*\*and you would just need to change the "href" attribute in the <link> tag to make it work. It is generally good practice to put your CSS files within the <head> tags so that your style rules are loaded *before* anything after it shows up in the page. Otherwise, your content may look like ugly default HTML without styles for a split-second while the CSS is being loaded.
+HTML files work in concert with CSS and JavaScript files. The <link> tag that you put in between the <head> tags allows you to refer to CSS rules \*in another file. \*In this case, it is **index.css**. You could have renamed your CSS file to anything you want as long as it had the CSS file extension after it. It could be **dog.css** or even **i-dont-care-what-I-call-it.css** and you would just need to change the "href" attribute in the <link> tag to make it work. It is generally good practice to put your CSS files within the <head> tags so that your style rules are loaded *before* anything after it shows up in the page. Otherwise, your content may look like ugly default HTML without styles for a split-second while the CSS is being loaded.
 
-This ability to reference code in other files works exactly the same way for JavaScript except with the relevant <script> tag is right before the ending <body> tag and uses the the "src"\*\* \*\*attribute. It is generally good practice to put your JavaScript files at the end of your <body> tags so that it won't block the loading of HTML or CSS. Otherwise, it may give the user the impression that your site is very slow if you have a lot of JavaScript.
+This ability to reference code in other files works exactly the same way for JavaScript except with the relevant <script> tag is right before the ending <body> tag and uses the the "src" attribute. It is generally good practice to put your JavaScript files at the end of your <body> tags so that it won't block the loading of HTML or CSS. Otherwise, it may give the user the impression that your site is very slow if you have a lot of JavaScript.
 
 ### File Structure
 
@@ -80,10 +87,13 @@ At this point, it should be clear that all you need to do when building a site o
 
 Typically, what ends up happening is the following:
 
-All of your site's files are put into a single folder. This includes HTML, CSS, JavaScript, and even images.\
-Your HTML files typically stay at the root of the folder while your other files go into folders separated by type. I typically create folders named css, js, and img for CSS, JavaScript, and images respectively.\
-Your HTML needs to be modified to include the right paths for your different files if they are in different folders. For example, if you used the same folder names I did, your HTML would look like this (note the href attribute in the tag and the src attribute in the tag):
+* All of your site's files are put into a single folder. This includes HTML, CSS, JavaScript, and even images.
 
+* Your HTML files typically stay at the root of the folder while your other files go into folders separated by type. I typically create folders named css, js, and img for CSS, JavaScript, and images respectively.
+
+* Your HTML needs to be modified to include the right paths for your different files if they are in different folders. For example, if you used the same folder names I did, your HTML would look like this (note the href attribute in the tag and the src attribute in the tag):
+
+```
     <html>
       <head>
         <link rel="stylesheet" type="text/css" href="css/index.css">
@@ -91,11 +101,13 @@ Your HTML needs to be modified to include the right paths for your different fil
       <body>
         <p>Hello world! This text should be blue because of the CSS I wrote in css/index.css!</p>
         <script type="text/javascript" src="js/index.js"></script>
-    </body>
+      </body>
     </html>
+```
 
 * If for some reason you needed to reference a file that was one level above the current folder that file is in, you would use two periods ".." to indicate the folder above:
 
+```
   # If index.html were in a folder and index.css were in the folder one level up:
 
   ../index.css
@@ -107,10 +119,11 @@ Your HTML needs to be modified to include the right paths for your different fil
   # If it were in a folder named 'css' that was in a folder one level up:
 
   ../css/index.css
+```
 
-Why "index" for the file name?
+### Why "index" for the file name?
 
-One last thing: you might be wondering why the HTML file is called **index.html** as opposed to anything else like **home.html** or **puppysareawesome.html**. This is because the default file to go to when accessing a folder in a browser - particularly when it hosted on a server - is \*\*index.html. \*\*This will be more apparent later when we actually publish your code.
+One last thing: you might be wondering why the HTML file is called **index.html** as opposed to anything else like **home.html** or **puppysareawesome.html**. This is because the default file to go to when accessing a folder in a browser - particularly when it hosted on a server - is **index.html**. This will be more apparent later when we actually publish your code.
 
 ## How the Internet works, simplified
 
