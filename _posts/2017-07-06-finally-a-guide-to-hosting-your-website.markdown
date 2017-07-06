@@ -3,6 +3,8 @@ title: Finally, a Guide to Hosting Your Website
 date: 2017-07-06 08:45:00 -04:00
 description: There aren't many guides on how to build a basic website on your computer
   then put it up on the Internet. Here's one that I wrote.
+opacity: 0.5
+hero: "/uploads/finally-a-guide-to-hosting-your-website.jpeg"
 ---
 
 So you now know HTML, CSS, and JavaScript. You've done the interactive tutorials, watched YouTube videos, and even picked up a few books. You know why [inline-styling is bad](http://stackoverflow.com/questions/2612483/whats-so-bad-about-in-line-css) and discovered the wonderful library that is [jQuery](http://jquery.com/). Then it dawns on you: you've learned the languages you should know, but you still have no idea how to take that code and turn it into a site on the Internet for the world to see.
