@@ -175,7 +175,7 @@ In the future, I plan on writing another post to talk about how this could be do
 
 ### Instead, use GitHub Pages
 
-Okay, what you *should *do is use [GitHub Pages](https://pages.github.com/). Full disclaimer: I do not work for GitHub and GitHub is not paying me. I personally think it is the best way for a beginner to publish their code for a number of reasons. It was even used to host the original version of Bento before I switched over to cloud services. Here's a few reasons why I think GitHub Pages is a good idea:
+Okay, what you *should* do is use [GitHub Pages](https://pages.github.com/). Full disclaimer: I do not work for GitHub and GitHub is not paying me. I personally think it is the best way for a beginner to publish their code for a number of reasons. It was even used to host the original version of Bento before I switched over to cloud services. Here's a few reasons why I think GitHub Pages is a good idea:
 
 * It requires that you learn Git, a popular **version control system** (though not the only one out there) that is an essential tool for any developer that hopes to work in teams or for a company. Git is one of the most popular technologies for version control out there.
 
@@ -183,7 +183,7 @@ Okay, what you *should *do is use [GitHub Pages](https://pages.github.com/). Ful
 
 * Hosting this way gets you started building a GitHub profile, which allows you to open source your code so that it can be seen by others - especially potential employers and other developers. I cannot stress enough how important this can be if you want to advance your career, especially as a beginning developer.
 
-* It's absolutely free to host your code on GitHub *and *have it be published in an accessible way.
+* It's absolutely free to host your code on GitHub *and* have it be published in an accessible way.
 
 * It is shockingly easy to get your code published.
 
@@ -191,7 +191,7 @@ Now about that last point about it being shockingly easy: what that means is tha
 
 1. Learn how to interact with the shell on your computer. [Here's the Bento page for it](http://www.bentobox.io/shell). I highly recommend you start with the first link **Learning the Shell**.
 
-2. You need to learn Git. [Here's the Bento page for that](http://bentobox.io/git). I highly recommend you start with GitHub's own tutorial on Git, **Try Git, **which is the first beginner link on the page.
+2. You need to learn Git. [Here's the Bento page for that](http://bentobox.io/git). I highly recommend you start with GitHub's own tutorial on Git, **Try Git**, which is the first beginner link on the page.
 
 3. Once you learn how to use the shell, install Git on your machine, and how to use Git, you need a GitHub profile. Go to [http://github.com/](http://github.com/) and create a profile.
 
